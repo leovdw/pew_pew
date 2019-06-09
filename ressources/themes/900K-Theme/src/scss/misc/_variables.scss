@@ -5,7 +5,11 @@ $breakpoints: (
 );
 
 
-$main-font        : 'Roboto', sans-serif;
+$main-font        : 'Ubuntu', sans-serif;
 
-$main-color       : black;
+$main-color       : $black;
 $secondary-color  : black;
+
+
+$yellow : #FFD02B;
+$black : #3C241C;

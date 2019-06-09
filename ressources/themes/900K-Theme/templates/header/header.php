@@ -5,5 +5,5 @@
 ?>
 
 <div class="main-menu">
-  <?php wp_nav_menu($args); ?>
+    <h2>winkle</h2>
 </div>

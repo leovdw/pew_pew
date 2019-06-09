@@ -1,6 +1,2 @@
-# starter-900k
-900k Starter
 
-Wp-Cli required
-
-To run Initial set up : sh 900k_setup.sh
+https://www.figma.com/file/ExWYEtV2t7CGLOR0E2nyX1Bf/Untitled?node-id=11%3A460

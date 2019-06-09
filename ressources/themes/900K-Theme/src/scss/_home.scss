@@ -1,0 +1,40 @@
+.home{
+  &--intro{
+    background: linear-gradient(180deg, #178DF9 0%, #60B3FF 100%);
+    height: 80vh;
+
+    h2{
+      font-weight: 500;
+      font-size: 66px;
+      line-height: 76px;
+      color: white;
+      margin: 0;
+      padding-top: 111px;
+    }
+    p{
+      font-weight: 300;
+      font-size: 26px;
+      line-height: 37px;
+      color: white;
+      margin-top: 45px;
+      margin-bottom: 70px;
+    }
+
+    &--btns{
+      a{
+        color: white;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 16px;
+        text-decoration: none;
+        
+        &:first-child{
+          background-color: $yellow;
+          padding: 13px 45px;
+          color: $black;
+          margin-right: 25px;
+        }
+      }
+    }
+  }
+}
