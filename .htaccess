@@ -1,0 +1,8 @@
+# Protect .env
+<Files .env>
+Order Allow,Deny
+Deny from all
+</Files>
+# BEGIN WordPress
+
+# END WordPress
