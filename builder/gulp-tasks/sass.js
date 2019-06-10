@@ -18,6 +18,17 @@ module.exports = function (gulp, callback) {
         this.emit('end');
     };
 
+    gulp.src(path + '/src/scss/copy/*.css')
+    .pipe(plumber({
+        errorHandler: function (error) {
+            console.log(error.message);
+            this.emit('end');
+        }
+    }))
+    //.pipe(uglify())
+    .pipe(gulp.dest(path + '/dist/styles/'));
+
+
     return gulp.src([path + '/src/scss/**/*.scss'])
         .pipe(plumber({
             errorHandler: function (error) {
@@ -35,9 +46,10 @@ module.exports = function (gulp, callback) {
         }))
         .pipe(cleanCSS())
         .pipe(gulp.dest(path + '/dist/styles/'))
-        // .pipe(notify({
-        //     title: 'Gulp styles',
-        //     subtitle: "Let's Rock",
-        //     message: 'Sass task'
-        // }));
 };
+
+//
+// gulp.task('css', function(){
+//
+//
+// });

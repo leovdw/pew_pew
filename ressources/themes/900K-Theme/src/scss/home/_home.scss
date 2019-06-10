@@ -1,7 +1,8 @@
 .home{
-  &--intro{
+  &__intro{
     background: linear-gradient(180deg, #178DF9 0%, #60B3FF 100%);
-    height: 80vh;
+    min-height: 80vh;
+    position: relative;
 
     h2{
       font-weight: 500;
@@ -21,20 +22,41 @@
     }
 
     &--btns{
+      padding-bottom: 40px;
+      display: flex;
       a{
         color: white;
         font-weight: bold;
         font-size: 14px;
         line-height: 16px;
         text-decoration: none;
-        
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+
+        svg{
+          margin-left: 8px;
+        }
+
         &:first-child{
           background-color: $yellow;
           padding: 13px 45px;
           color: $black;
           margin-right: 25px;
+          text-transform: uppercase;
         }
       }
+    }
+
+    .visu_intro{
+      position: absolute;
+      right: 0;
+      transform: translateY(-50%);
+      top: 60%;
+    }
+
+    &--wraper{
+      max-width: 70%;
     }
   }
 }

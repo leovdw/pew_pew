@@ -5,8 +5,6 @@ var plumber  = require('gulp-plumber');
 var path     = require('./path.js');
 var wait;
 
-'use strict';
-
 var imgTask = function (gulp, callback) {
 	var onError = function(err) {
 		notify.onError({
