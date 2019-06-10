@@ -1,4 +1,3 @@
-
 *.log
 
 /node_modules
@@ -18,3 +17,5 @@ app/
 dploy.yaml
 
 .env
+
+.secret

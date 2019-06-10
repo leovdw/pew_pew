@@ -1,13 +1,13 @@
-$breakpoints: (
-  small: 576px,
-  medium: 968px,
-  large: 1200px,
-);
-
 $main-font        : 'Ubuntu', sans-serif;
 
 $yellow           : #FFD02B;
 $black            : #3C241C;
+$blue             : #178DF9;
 
 $main-color       : $black;
 $secondary-color  : black;
+
+
+$medium       : 850px;
+$large        : 1250px;
+$small        : 500px;

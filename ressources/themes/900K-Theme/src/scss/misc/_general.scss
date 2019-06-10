@@ -2,6 +2,11 @@ body{
   // overflow: hidden;
   margin: 0;
   font-family: $main-font;
+
+  @include breakpoint($medium, down){
+   font-size: 90%;
+  }
+
 }
 ul{
   margin: 0;
@@ -11,5 +16,14 @@ ul{
     list-style: none;
     padding: 0;
     margin: 0;
+  }
+}
+
+.main-menu{
+  display: flex;
+  justify-content: center;
+
+  svg{
+    margin: 18px 0 ;
   }
 }
