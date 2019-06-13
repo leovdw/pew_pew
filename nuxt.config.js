@@ -70,6 +70,9 @@ export default {
   },
   modules: [
   ],
+  optimization: {
+      runtimeChunk: true
+  }
   /*
   ** Build configuration
   */
