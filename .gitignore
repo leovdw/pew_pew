@@ -19,3 +19,6 @@ dploy.yaml
 .env
 
 .secret
+
+
+.sql

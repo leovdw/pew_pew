@@ -72,57 +72,30 @@
     </svg>
   </div>
 
-  <div class="home__sum">
-    <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path fill-rule="evenodd" clip-rule="evenodd" d="M10 0H60C65.5229 0 70 4.47715 70 10V60C70 65.5229 65.5229 70 60 70H10C4.47715 70 0 65.5229 0 60V10C0 4.47715 4.47715 0 10 0Z" fill="#3C241C"/>
-      <path d="M38.16 23.288C38.544 24.6 38.96 26.088 39.408 27.752C39.888 29.384 40.384 31.08 40.896 32.84C41.44 34.6 41.984 36.36 42.528 38.12C43.072 39.88 43.6 41.512 44.112 43.016C44.528 41.384 44.944 39.608 45.36 37.688C45.808 35.768 46.224 33.784 46.608 31.736C46.992 29.688 47.36 27.656 47.712 25.64C48.096 23.592 48.448 21.624 48.768 19.736H56.544C55.424 25.304 54.128 30.952 52.656 36.68C51.216 42.408 49.648 47.848 47.952 53H41.088C39.968 49.928 38.88 46.712 37.824 43.352C36.768 39.96 35.728 36.568 34.704 33.176C33.68 36.568 32.656 39.96 31.632 43.352C30.608 46.712 29.536 49.928 28.416 53H21.552C19.856 47.848 18.272 42.408 16.8 36.68C15.36 30.952 14.08 25.304 12.96 19.736H21.072C21.392 21.624 21.744 23.592 22.128 25.64C22.512 27.656 22.912 29.688 23.328 31.736C23.744 33.784 24.16 35.768 24.576 37.688C25.024 39.608 25.472 41.384 25.92 43.016C26.496 41.448 27.056 39.784 27.6 38.024C28.144 36.264 28.672 34.504 29.184 32.744C29.696 30.984 30.16 29.288 30.576 27.656C31.024 26.024 31.424 24.568 31.776 23.288H38.16Z" fill="white"/>
-    </svg>
-    <h3>Winkle, c’est quoi ?</h3>
-    <p>
-      Winkle est un programme de soutien et d’entraide favorisant la reconstruction personnelle des célibattantes. Ce programme s’adresse aux femmes ayant vécu une récente séparation difficile et qui souhaitent retrouver leur indépendance, reprendre confiance en elles et s’épanouir pleinement.
-    </p>
+  <div class="home__blow">
+    <h2>Tu n'arrive plus a t'aimer suite a une rupture difficile ?</h2>
   </div>
 
-  <div class="home__exp">
+  <div class="home__sum home__exp">
+    <div class="home__exp--head">
+      <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M10 0H60C65.5229 0 70 4.47715 70 10V60C70 65.5229 65.5229 70 60 70H10C4.47715 70 0 65.5229 0 60V10C0 4.47715 4.47715 0 10 0Z" fill="#3C241C"/>
+        <path d="M38.16 23.288C38.544 24.6 38.96 26.088 39.408 27.752C39.888 29.384 40.384 31.08 40.896 32.84C41.44 34.6 41.984 36.36 42.528 38.12C43.072 39.88 43.6 41.512 44.112 43.016C44.528 41.384 44.944 39.608 45.36 37.688C45.808 35.768 46.224 33.784 46.608 31.736C46.992 29.688 47.36 27.656 47.712 25.64C48.096 23.592 48.448 21.624 48.768 19.736H56.544C55.424 25.304 54.128 30.952 52.656 36.68C51.216 42.408 49.648 47.848 47.952 53H41.088C39.968 49.928 38.88 46.712 37.824 43.352C36.768 39.96 35.728 36.568 34.704 33.176C33.68 36.568 32.656 39.96 31.632 43.352C30.608 46.712 29.536 49.928 28.416 53H21.552C19.856 47.848 18.272 42.408 16.8 36.68C15.36 30.952 14.08 25.304 12.96 19.736H21.072C21.392 21.624 21.744 23.592 22.128 25.64C22.512 27.656 22.912 29.688 23.328 31.736C23.744 33.784 24.16 35.768 24.576 37.688C25.024 39.608 25.472 41.384 25.92 43.016C26.496 41.448 27.056 39.784 27.6 38.024C28.144 36.264 28.672 34.504 29.184 32.744C29.696 30.984 30.16 29.288 30.576 27.656C31.024 26.024 31.424 24.568 31.776 23.288H38.16Z" fill="white"/>
+      </svg>
+      <h3>Winkle, c’est quoi ?</h3>
+    </div>
+
     <div class="home__exp--txt">
-      <h3>Comment ça fonctionne ?</h3>
-      <ul>
-        <li>
-          <div class="">
-            <svg width="57" height="49" viewBox="0 0 57 49" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <g clip-path="url(#clip0)">
-              <path d="M30.1699 1.64158C30.1699 0.734332 29.4229 0 28.5 0C27.5771 0 26.8301 0.734332 26.8301 1.64158V8.67519C26.8301 9.58244 27.5771 10.3168 28.5 10.3168C29.4229 10.3168 30.1699 9.58244 30.1699 8.67519V1.64158Z" fill="#FFD02B"/>
-              <path d="M20.1648 11.5939C20.491 11.9146 20.9185 12.0744 21.346 12.0744C21.7735 12.0744 22.201 11.9146 22.5272 11.5939C23.1796 10.9526 23.1796 9.91297 22.5272 9.27275L18.948 5.7554C18.2956 5.11409 17.2391 5.11409 16.5867 5.7554C15.9343 6.39671 15.9343 7.43637 16.5867 8.07659L20.1648 11.5939Z" fill="#FFD02B"/>
-              <path d="M35.6551 12.0744C36.0826 12.0744 36.5101 11.9146 36.8363 11.5939L40.4143 8.07769C41.0667 7.43638 41.0667 6.39671 40.4143 5.7565C39.762 5.11519 38.7043 5.11519 38.0531 5.7565L34.4761 9.27276C33.8237 9.91407 33.8237 10.9537 34.4761 11.5939C34.8001 11.9146 35.2276 12.0744 35.6551 12.0744Z" fill="#FFD02B"/>
-              <path d="M23.6695 15.8587C23.6517 15.873 23.6361 15.8861 23.6194 15.8992L16.3997 21.9829C15.7307 22.5465 14.8757 22.8573 13.9939 22.8573H8.82275C3.94992 22.8584 0 26.7347 0 31.5314V47.3584C0 48.2646 0.747012 49 1.66992 49H15.9789C16.9018 49 17.6488 48.2646 17.6488 47.3584V32.2887L26.1465 25.1282C26.5807 24.7626 26.8301 24.2286 26.8301 23.6672V17.3646C26.8301 15.7613 24.9353 14.8497 23.6695 15.8587Z" fill="#FFD02B"/>
-              <path d="M48.1772 22.8584H43.0061C42.1243 22.8584 41.2693 22.5476 40.6003 21.984L33.3806 15.9003C33.365 15.8871 33.3483 15.874 33.3305 15.8598C32.0636 14.8497 30.1699 15.7624 30.1699 17.3646V23.6671C30.1699 24.2285 30.4193 24.7626 30.8535 25.1281L39.3512 32.2887V47.3584C39.3512 48.2645 40.0982 49 41.0211 49H55.3301C56.253 49 57 48.2656 57 47.3584V31.5314C57 26.7347 53.0501 22.8584 48.1772 22.8584Z" fill="#FFD02B"/>
-              <path d="M15.8597 15.9408C15.8597 12.1269 12.7036 9.02429 8.82378 9.02429C4.94399 9.02429 1.78784 12.1269 1.78784 15.9408C1.78784 19.7547 4.94399 22.8573 8.82378 22.8573C12.7036 22.8573 15.8597 19.7558 15.8597 15.9408Z" fill="#FFD02B"/>
-              <path d="M55.211 15.9408C55.211 12.1269 52.0549 9.02429 48.1751 9.02429C44.2953 9.02429 41.1392 12.1269 41.1392 15.9408C41.1392 19.7547 44.2953 22.8573 48.1751 22.8573C52.0549 22.8573 55.211 19.7558 55.211 15.9408Z" fill="#FFD02B"/>
-              </g>
-              <defs>
-              <clipPath id="clip0">
-              <rect width="57" height="49" fill="white"/>
-              </clipPath>
-              </defs>
-            </svg>
-          </div>
-
-          <p>
-            Winkle met en relation la célibattante avec une marraine, figure de confiance et ancienne célibattante qui, après sa rupture, a réussi à sortir la tête de l’eau et à s’épanouir
-          </p>
-        </li>
-        <li>
-          <div class="">
-            <svg width="49" height="49" viewBox="0 0 49 49" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M24.4992 0C10.9698 0 0 10.9698 0 24.4992C0 38.0285 10.9698 49 24.4992 49C38.0285 49 49 38.0302 49 24.4992C49 10.9682 38.0302 0 24.4992 0ZM35.0917 29.1592H24.705C24.6707 29.1592 24.638 29.1511 24.6021 29.1494C24.5678 29.1511 24.5351 29.1592 24.4992 29.1592C23.5633 29.1592 22.8054 28.3997 22.8054 27.4654V10.1678C22.8054 9.23191 23.5649 8.47402 24.4992 8.47402C25.4335 8.47402 26.193 9.23354 26.193 10.1678V25.7716H35.0901C36.026 25.7716 36.7839 26.5311 36.7839 27.4654C36.7855 28.4013 36.0276 29.1592 35.0917 29.1592Z" fill="#FFD02B"/>
-            </svg>
-          </div>
-
-          <p>
-            Winkle permet un accompagnement personnalisé pouvant aller de quelques semaines à plusieurs mois.
-          </p>
-        </li>
-      </ul>
+      <p>
+        - Une aide pour te rebâtir une confiance dans la vie et les relations. <br>
+        - Un mentor personnel dans un échange d’expérience intime permettant de tisser un lien de confiance indispensable à ta reconstruction. <br>
+        - Un accompagnement personnalisé adapté à tes besoins. <br>
+        - Une multitude d’activités qui te permettront de découvrir des aspects de toi que tu n’imaginais même pas. <br>
+        <br>
+        <i>
+        Simplement une marraine qui t’aide à te sortir de cette spirale de merde !
+        </i>
+      </p>
     </div>
     <div class="home__exp--visu">
       <svg width="230" height="311" viewBox="0 0 230 311" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -190,36 +163,6 @@
     </div>
   </div>
 
-  <div class="home__why">
-    <h2>Pourquoi choisir Winkle ?</h2>
-    <p>Winkle, c’est avant tout un échange d’expérience et un mentoring en one-to-one qui permet de tisser des liens de confiance entre la marraine et la célibattante</p>
-    <ul>
-      <li>
-        <svg width="97" height="97" viewBox="0 0 97 97" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <g clip-path="url(#clip0)">
-          <path d="M97.0001 65.6455C97.0001 53.6077 90.0945 42.8657 79.7523 37.6405C79.4302 60.7197 60.7198 79.432 37.6406 79.7522C42.8657 90.0944 53.6077 97 65.6456 97C71.2894 97 76.7779 95.4976 81.5994 92.6407L96.8637 96.8636L92.6408 81.5994C95.4977 76.7778 97.0001 71.2893 97.0001 65.6455Z" fill="#FFD02B"/>
-          <path d="M74.0762 37.0381C74.0762 16.615 57.4611 0 37.0381 0C16.615 0 0 16.615 0 37.0381C0 43.6936 1.77139 50.1748 5.13607 55.864L0.136406 73.9398L18.2121 68.9401C23.9014 72.3048 30.3826 74.0762 37.0381 74.0762C57.4611 74.0762 74.0762 57.4611 74.0762 37.0381ZM31.3545 28.418H25.6709C25.6709 22.149 30.7691 17.0508 37.0381 17.0508C43.3071 17.0508 48.4053 22.149 48.4053 28.418C48.4053 31.5989 47.0583 34.6567 44.709 36.807L39.8799 41.2269V45.6582H34.1963V38.7223L40.8707 32.6125C42.0643 31.5212 42.7217 30.0321 42.7217 28.418C42.7217 25.2844 40.1716 22.7344 37.0381 22.7344C33.9045 22.7344 31.3545 25.2844 31.3545 28.418ZM34.1963 51.3418H39.8799V57.0254H34.1963V51.3418Z" fill="#FFD02B"/>
-          </g>
-          <defs>
-          <clipPath id="clip0">
-          <rect width="97" height="97" fill="white"/>
-          </clipPath>
-          </defs>
-        </svg>
-
-        <p>Nous t’aidons à définir tes forces et tes faiblesses, à comprendre ta dépendance affective</p>
-      </li>
-      <li>
-        <svg width="97" height="97" viewBox="0 0 97 97" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M90.9413 90.7726V35.1537H73.8905V90.7664H68.2069V47.6084H51.1561V90.7602L45.4706 90.7581V60.0653H28.4199V90.7539L22.7363 90.7518V72.5201H5.68549V90.7477L0.00189453 90.7456L0 96.973L96.9981 97L97 90.7747L90.9413 90.7726Z" fill="#FFD02B"/>
-          <path d="M15.0823 53.2754L78.2877 12.6997L77.1453 17.4367L82.6394 19.0268L86.2693 3.97515L72.5321 0L71.079 6.01982L75.4686 7.2902L12.2102 47.9032L15.0823 53.2754Z" fill="#FFD02B"/>
-        </svg>
-
-        <p>Nous t’aidons à construire ton projet de vie personnel et professionnel, sans jugement</p>
-      </li>
-    </ul>
-  </div>
-
   <div class="home__how">
     <h2>Comment ça marche ?</h2>
     <ul>
@@ -246,15 +189,25 @@
     </ul>
   </div>
 
-  <h2>C’est facile et sans contraintes !</h2>
-
-  <div class="home__goal">
-      <h3>Notre objectif ?</h3>
-      <div class="">
-        <h3>T'apporter un sentiment de fierté et de réussite</h3>
-        <p>Winkle favorise ton accomplissement personnel. Pour cela, nous mettons à ta disposition des défis à réaliser. Ces challenges sont propres à tes besoins et sont alimentés au fur et à mesure de ton parcours. Accomplis un maximum de défis pour débloquer des récompenses synonyme de triomphe.</p>
-      </div>
+  <div class="home__why">
+    <h2>Pourquoi choisir Winkle ?</h2>
+    <p>Parce que...</p>
+    <ul>
+      <li>
+        <p>Winkle ne t’abandonnera pas durant cet état transitoire. et ne te jugera pas.</p>
+      </li>
+      <li>
+        <p>Winkle t’aide dans toutes les démarches de développement de toi et favorise ton accomplissement personnel.</p>
+      </li>
+      <li>
+        <p>Winkle te met au défi chaque semaine, te challenge selon ton profil et te récompense a chaque accomplissements.</p>
+      </li>
+    </ul>
   </div>
+
+
+
+  <h2>C’est facile et sans contraintes !</h2>
 
   <div class="home__newletter">
     <div class="home__newletter--form">
