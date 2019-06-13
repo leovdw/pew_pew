@@ -36,20 +36,20 @@ export default {
   ** Nuxt.js modules
   */
   build: {
-    extractCSS: true,
+    extractCSS: false,
     // vendor: ['velocity-animate'],
-    optimization: {
-      splitChunks: {
-        cacheGroups: {
-          styles: {
-            name: 'styles',
-            test: /\.(css|vue)$/,
-            chunks: 'all',
-            enforce: true
-          }
-        }
-      }
-    },
+    // optimization: {
+    //   splitChunks: {
+    //     cacheGroups: {
+    //       styles: {
+    //         name: 'styles',
+    //         test: /\.(css|vue)$/,
+    //         chunks: 'all',
+    //         enforce: true
+    //       }
+    //     }
+    //   }
+    // },
     postcss: {
       'postcss-responsive-type': {},
       'postcss-nested': {}
@@ -70,9 +70,6 @@ export default {
   },
   modules: [
   ],
-  optimization: {
-      runtimeChunk: true
-  }
   /*
   ** Build configuration
   */
