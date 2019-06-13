@@ -8,6 +8,22 @@
   }
 }
 
+h2:not(.no_dash){
+  position: relative;
+  padding-bottom: 15px; 
+
+  &::after{
+    content: '';
+    position: absolute;
+    background-color: $yellow;
+    bottom: 0;
+    height: 3px;
+    border-radius: 5px;
+    width: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
 
 .home{
   &__intro{

@@ -1,0 +1,13 @@
+dev:
+    host: pink-web.900k.fr
+    port: 21
+    user: leo
+    pass: ftp900kaccname
+    check: true
+    path:
+        local: ""
+        remote: "winkle.fr/"
+    include:
+        "ressources/themes/900K-Theme/dist/styles/*.css": "ressources/themes/900K-Theme/dist/styles/"
+        "ressources/themes/900K-Theme/dist/scripts/*.js": "ressources/themes/900K-Theme/dist/scripts/"
+        "builder": "builder"
