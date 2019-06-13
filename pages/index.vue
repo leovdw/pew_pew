@@ -225,14 +225,14 @@
     <div class="home__newletter--form">
       <h3>Tu souhaites entendre parler de nous ?</h3>
       <p>Si tu souhaites être tenue au courant des actualités de notre projet, et savoir quand nous le lancerons officiellement, n’hésite pas à laisser ton mail !</p>
-      <!-- <?php acf_form(array(
-					'post_id'		=> 'new_post',
-					'new_post'		=> array(
-						'post_type'		=> 'form',
-						'post_status'		=> 'publish'
-					),
-					'submit_value'		=> 'Submit'
-				)); ?> -->
+      <form name="contact" method="POST" data-netlify="true">
+        <p>
+          <input type="email" name="email" />
+        </p>
+        <p>
+          <button type="submit">Send</button>
+        </p>
+      </form>
     </div>
     <div class="home__newletter--img">
       <svg width="757" height="538" viewBox="0 0 757 538" fill="none" xmlns="http://www.w3.org/2000/svg">
