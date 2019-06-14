@@ -19,7 +19,7 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href:'https://fonts.googleapis.com/css?family=Ubuntu:400,500,700&display=swap', type:"text/javascript"},
+      { rel: 'stylesheet', href:'https://fonts.googleapis.com/css?family=Ubuntu:400,500,700&display=swap'},
     ]
   },
   /*

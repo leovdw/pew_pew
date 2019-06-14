@@ -526,6 +526,10 @@ h2:not(.no_dash){
 
       form{
         display: flex;
+        @include breakpoint($medium, down){
+          justify-content: center;
+        }
+
         p{
           display: flex;
           flex-direction: column;
@@ -556,6 +560,14 @@ h2:not(.no_dash){
       display: flex;
       flex-direction: column;
       justify-content: center;
+
+      @include breakpoint($medium, down){
+        align-items: center;
+        svg{
+          transform: translateY(0%);
+          width: 100%;
+        }
+      }
 
       svg{
         transform: translateY(12%);
