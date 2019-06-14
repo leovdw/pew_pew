@@ -10,12 +10,12 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
-      {
-        'property': 'og:title',
-        'content': 'Winkle',
-        'template': chunk => `${chunk} - Home`, //or as string template: '%s - My page',
-        'vmid': 'og:title'
-      },
+      // {
+      //   'property': 'og:title',
+      //   'content': 'Winkle',
+      //   'template': chunk => `${chunk} - Home`, //or as string template: '%s - My page',
+      //   'vmid': 'og:title'
+      // },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
@@ -78,11 +78,11 @@ export default {
   modules: [
     'nuxt-babel',
   ],
-  generate: {
-    routes: function () {
-      return '/conf'
-    },
-  }
+  // generate: {
+  //   routes: function () {
+  //     return '/conf'
+  //   },
+  // }
   /*
   ** Build configuration
   */
