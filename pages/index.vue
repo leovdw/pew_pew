@@ -1,5 +1,5 @@
 <template>
-  <!-- <div v-scroll="handleScroll"> -->
+  <div v-scroll="handleScroll">
     <div class="main-menu">
       <svg width="124" height="25" viewBox="0 0 124 25" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
         <rect width="124" height="25" fill="url(#pattern0)"/>
@@ -85,7 +85,7 @@
         </svg>
       </div>
 
-      <div class="has_scroll">
+      <!-- <div class="has_scroll"> -->
         <div class="home__blow">
           <transition name="blow" apear>
             <div class="" v-show="this.current >= 1">
@@ -97,7 +97,7 @@
         </div>
       </div>
 
-      <div class="home__sum home__exp">
+      <!-- <div class="home__sum home__exp"> -->
         <div class="home__exp--head">
           <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" clip-rule="evenodd" d="M10 0H60C65.5229 0 70 4.47715 70 10V60C70 65.5229 65.5229 70 60 70H10C4.47715 70 0 65.5229 0 60V10C0 4.47715 4.47715 0 10 0Z" fill="white"/>
@@ -184,7 +184,7 @@
         </div>
       </div>
 
-      <div class="home__how">
+      <!-- <div class="home__how"> -->
         <h2>Comment ça marche ?</h2>
         <ul>
           <li>
@@ -210,7 +210,7 @@
         </ul>
       </div>
 
-      <div class="home__why">
+      <!-- <div class="home__why"> -->
         <h2>Pourquoi choisir Winkle ?</h2>
         <p>Parce que...</p>
         <ul>
@@ -231,7 +231,7 @@
 
       </div>
 
-      <div class="home__newsletter">
+      <!-- <div class="home__newsletter"> -->
         <div class="home__newsletter--form">
           <h3>Tu souhaites entendre parler de nous ?</h3>
           <p>Si tu souhaites être tenue au courant des actualités de notre projet, et savoir quand nous le lancerons officiellement, n’hésite pas à laisser ton mail !</p>
@@ -306,7 +306,7 @@
         </div>
       </div>
     </div>
-    <footer class="footer">
+    <!-- <footer class="footer"> -->
       <div class="footer--logo">
         <svg width="124" height="25" viewBox="0 0 124 25" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
           <rect width="124" height="25" fill="url(#pattern0)"/>
