@@ -26,7 +26,7 @@ export default {
   ** Customize the progress-bar color
   */
   loading: { color: '#fff' },
-  
+
   /*
   ** Global CSS
   */
@@ -77,7 +77,12 @@ export default {
 
   modules: [
     'nuxt-babel',
-  ]
+  ],
+  generate: {
+    routes: function () {
+      return '/conf'
+    },
+  }
   /*
   ** Build configuration
   */

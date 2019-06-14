@@ -356,7 +356,8 @@
       </div>
       <div class="footer--legal">
         <nuxt-link to="/conf">Politique de confidentialité</nuxt-link>
-        <nuxt-link to="/leg">Mentions légales</nuxt-link>
+        <a href="#">Mentions légales</a>
+        <!-- <nuxt-link to="/leg"></nuxt-link> -->
       </div>
     </footer>
   </div>
