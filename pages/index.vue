@@ -231,7 +231,7 @@
 
       </div>
 
-      <!-- <div class="home__newsletter">
+      <div class="home__newsletter">
         <div class="home__newsletter--form">
           <h3>Tu souhaites entendre parler de nous ?</h3>
           <p>Si tu souhaites être tenue au courant des actualités de notre projet, et savoir quand nous le lancerons officiellement, n’hésite pas à laisser ton mail !</p>
@@ -245,7 +245,7 @@
           </form>
         </div>
         <div class="home__newsletter--img">
-          <svg width="463" height="381" viewBox="0 0 463 381" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <!-- <svg width="463" height="381" viewBox="0 0 463 381" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clip-path="url(#clip0)">
             <path d="M265.996 46.0067H226.082V96.5987H265.996V46.0067Z" fill="#39251D"/>
             <path d="M266.528 47.6044C262.952 58.1914 257.476 67.8412 246.305 67.8412C235.135 67.8412 226.71 58.7612 226.082 47.6044C225.279 33.3481 234.879 27.309 246.305 27.3676C259.807 27.4368 270.77 35.0363 266.528 47.6044Z" fill="#39251D"/>
@@ -302,9 +302,9 @@
             <rect width="463" height="381" fill="white"/>
             </clipPath>
             </defs>
-          </svg>
+          </svg> -->
         </div>
-      </div> -->
+      </div>
     <!-- <footer class="footer">
       <div class="footer--logo">
         <svg width="124" height="25" viewBox="0 0 124 25" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
