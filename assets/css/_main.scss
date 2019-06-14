@@ -84,11 +84,19 @@ h2:not(.no_dash){
         font-size: 36px;
         line-height: 41px;
         padding-top: 0;
-        padding-bottom: 290px;
+        padding-bottom: 330px;
       }
 
       @include breakpoint($small, down){
-        padding-bottom: 230px;
+        padding-bottom: 330px;
+      }
+
+      @include breakpoint(388px, down){
+        padding-bottom: 260px;
+      }
+
+      @include breakpoint(317px, down){
+        padding-bottom: 220px;
       }
     }
     p{
