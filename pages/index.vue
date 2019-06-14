@@ -321,16 +321,16 @@ export default {
     }
   },
   mounted(){
-    this.m_init();
+    // this.m_init();
   },
   methods: {
-    m_init: function () {
-      if (this.is_locked) {
-        let body = document.querySelector('body');
-
-        body.classList.add('is_locked');
-      }
-    },
+    // m_init: function () {
+    //   if (this.is_locked) {
+    //     let body = document.querySelector('body');
+    //
+    //     body.classList.add('is_locked');
+    //   }
+    // },
     handleScroll: function (evt, el) {
       let body      = body ? body : document.querySelector('body');
       let sections  = document.querySelectorAll('.has_scroll');
