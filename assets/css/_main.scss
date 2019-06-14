@@ -1,15 +1,14 @@
 
 .hidden{
-   transform: translateY( calc( -50% + 80px)) !important;
+   transform: translateY( calc( -50% + 160px)) !important;
    opacity: 0;
-   transition: all linear .6s;
-   transition-delay: 4s;
+   transition: all linear .8s;
 }
 .up{
   // transition-delay: 2s;
-  transform: translateY( calc( -50% - 80px)) !important;
+  transform: translateY( calc( -50% - 40px)) !important;
   opacity: 0;
-  transition: all linear .6s;
+  transition: all linear .4s;
 }
 .show{
   transform: translateY(-50%);
@@ -130,6 +129,8 @@ h2:not(.no_dash){
         border-radius: 5px;
         display: flex;
         align-items: center;
+        transition: .6s ease all;
+        border: 1px solid transparent;
 
         @include breakpoint($medium, down){
            display: none;
@@ -149,6 +150,13 @@ h2:not(.no_dash){
           color: white;
           margin-right: 25px;
           text-transform: uppercase;
+          transition: .6s ease all;
+          border: 1px solid $yellow;
+
+          &:hover{
+            color: $yellow;
+            background-color: white;
+          }
 
           @include breakpoint($medium, down){
              display: block;

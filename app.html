@@ -30,6 +30,26 @@
       	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
     </script> -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>
+    <script>
+    window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#edeff5",
+          "text": "#838391"
+        },
+        "button": {
+          "background": "#178DF9"
+        }
+      },
+      "content": {
+        "message": "Winkle utilise des cookies pour vous garantir la meilleure expérience sur notre site. Si vous continuez à utiliser ce site, nous supposerons que vous en êtes satisfait.",
+        "dismiss": "Ok !"
+      }
+    })});
+    </script>
   </head>
   <body {{ BODY_ATTRS }} class="is_locked">
     {{ APP }}

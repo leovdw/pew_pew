@@ -69,7 +69,7 @@
       </div>
       <div class="footer--socials">
         <div class="">
-          <p>Nos résaux sociaux</p>
+          <p>Nos réseaux sociaux :</p>
           <ul>
             <li>
               <a href="#" target="_blank" title="Facebook Social Media">
