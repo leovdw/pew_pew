@@ -210,8 +210,8 @@
         </ul>
       </div>
 
-      <!-- <div class="home__why"> -->
-        <!-- <h2>Pourquoi choisir Winkle ?</h2>
+      <div class="home__why">
+        <h2>Pourquoi choisir Winkle ?</h2>
         <p>Parce que...</p>
         <ul>
           <li>
@@ -229,7 +229,7 @@
         <h5>* Signifie gagner en anglais <br>
         ** langage familier signifiant « gagnante »</h5>
 
-      </div> -->
+      </div>
 
       <!-- <div class="home__newsletter"> -->
         <!-- <div class="home__newsletter--form">
