@@ -358,7 +358,6 @@
         <nuxt-link to="/leg">Mentions légales</nuxt-link>
       </div>
     </footer>
-
   </div>
 </template>
 

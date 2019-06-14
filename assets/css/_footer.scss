@@ -13,16 +13,25 @@
 
   & > div{
     width: 30%;
+
+    @include breakpoint($medium, down){
+      width: 80%;
+    }
   }
+  
   &--logo{
     display: flex;
     justify-content: center;
+
     @include breakpoint($medium, down){
         flex-direction: column;
         justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
     }
 
   }
+
   &--socials{
     display: flex;
     flex-direction: column;
@@ -63,6 +72,10 @@
   &--legal{
     display: flex;
     justify-content: center;
+
+    @include breakpoint($medium, down){
+      padding-bottom: 30px;
+    }
 
     a{
       font-size: 12px;
