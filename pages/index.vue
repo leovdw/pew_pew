@@ -235,14 +235,14 @@
         <div class="home__newsletter--form">
           <h3>Tu souhaites entendre parler de nous ?</h3>
           <p>Si tu souhaites être tenue au courant des actualités de notre projet, et savoir quand nous le lancerons officiellement, n’hésite pas à laisser ton mail !</p>
-          <form name="contact" method="POST" data-netlify="true">
+          <!-- <form name="contact" method="POST" data-netlify="true">
             <p>
               <input type="email" name="email" placeholder="Email"/>
             </p>
             <p>
               <button type="submit">Inscription</button>
             </p>
-          </form>
+          </form> -->
         </div>
         <div class="home__newsletter--img">
           <!-- <svg width="463" height="381" viewBox="0 0 463 381" fill="none" xmlns="http://www.w3.org/2000/svg">
