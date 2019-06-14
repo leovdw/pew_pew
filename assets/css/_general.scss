@@ -1,0 +1,53 @@
+$main-font        : 'Ubuntu', sans-serif;
+
+$yellow           : #FFD02B;
+$black            : #3C241C;
+$blue             : #178DF9;
+$grey             : #505D68;
+
+$main-color       : $black;
+$secondary-color  : black;
+
+
+$medium       : 850px;
+$large        : 1250px;
+$small        : 500px;
+
+// Breakpoint mixin
+@mixin breakpoint($breakpoint , $operator) {
+    // Get the breakpoint value.
+    // $breakpoint-value: map-get($breakpoints, $breakpoint);
+
+    // Write the media query.
+    @if $operator="down" {
+      @media (max-width: ($breakpoint - 1)) {
+        @content;
+      }
+    } @else if $operator="up"{
+      @media (min-width: ($breakpoint - 1)) {
+        @content;
+      }
+    }
+}
+
+body{
+  // overflow: hidden;
+  margin: 0;
+  font-family: $main-font;
+  color: $main-color;
+
+  @include breakpoint($medium, down){
+   font-size: 90%;
+  }
+
+}
+ul{
+  margin: 0;
+  padding: 0;
+
+  li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+}

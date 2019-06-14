@@ -87,13 +87,12 @@
 
       <div class="has_scroll">
         <div class="home__blow">
-          <transition name="blow" apear>
-            <div class="" v-show="this.current >= 1">
-              <h2 class="no_dash" v-show="this.sub == 0">Tu n'arrive plus a t'aimer suite a une rupture difficile 1?</h2>
-              <h2 class="no_dash" v-show="this.sub == 1">Tu n'arrive plus a t'aimer suite a une rupture difficile 2?</h2>
-              <h2 class="no_dash" v-show="this.sub == 2">Tu n'arrive plus a t'aimer suite a une rupture difficile 3?</h2>
-            </div>
-          </transition>
+          <div>
+            <h2 :class="['no_dash', (this.sub == 0 ? 'show' : 'hidden')]" >Tu souhaites réapprendre à t’aimer suite à une rupture difficile ?</h2>
+            <h2 :class="['no_dash', (this.sub == 1 ? 'show' : 'hidden')]" >Tu crois en ta capacité à vivre seule ?</h2>
+            <h2 :class="['no_dash', (this.sub == 2 ? 'show' : 'hidden')]" >Et tu souhaites atteindre tes objectifs ?</h2>
+            <h2 :class="['no_dash', (this.sub == 3 ? 'show' : 'hidden')]" >Très bien, tu es une célibattante !</h2>
+          </div>
         </div>
       </div>
 
@@ -392,91 +391,67 @@ export default {
        }, 500);
       }
 
-      if (this.done === 1 && this.current !== 2) {
-        if (scroll > 1){
-          if (this.current < sections.length - 1) {
-            this.done = 0;
-            this.current++;
-            window.scroll({
-              top: sections[this.current].getBoundingClientRect().top,
-              left: 0,
-              behavior: 'smooth'
-            })
-          }else {
-            if (this.current < 3) {
+      if (body.getBoundingClientRect().width > 850) {
+        if (this.done === 1 && this.current !== 2) {
+          if (scroll > 1){
+            if (this.current < sections.length - 1) {
+              this.done = 0;
               this.current++;
-              if (this.current == 3) {
+              window.scroll({
+                top: sections[this.current].getBoundingClientRect().top,
+                left: 0,
+                behavior: 'smooth'
+              })
+            }else {
+              if (this.current < 3) {
+                this.current++;
+                if (this.current == 3) {
+                  body.classList.remove('is_locked');
+                }
+              }
+            }
+          }else if (scroll < -1){
+            if (this.current == 3) {
+              if (Math.round(next_top) > 150) {
+                body.classList.add('is_locked');
+                this.current = 1;
+                this.done = 0;
+                window.scroll({
+                  top: sections[sections.length - 1].offsetTop,
+                  left: 0,
+                  behavior: 'smooth'
+                })
+              }
+            }else if (this.current > 0 && this.current < sections.length ) {
+              this.done = 0;
+              this.current--;
+              window.scroll({
+                top: sections[this.current].getBoundingClientRect().top,
+                left: 0,
+                behavior: 'smooth'
+              })
+            }else if (this.current > 0) {
+              this.current--;
+            }
+          }
+        }
+        if (this.done === 1 && this.current == 2) {
+          if (scroll > 1){
+            if (this.current = sections.length && this.sub !== 3) {
+              this.done = 0;
+              this.sub++;
+            }else {
+              if (this.current < 3 && this.sub == 3) {
+                this.current = 3;
                 body.classList.remove('is_locked');
               }
             }
-          }
-        }else if (scroll < -1){
-          if (this.current == 3) {
-            if (Math.round(next_top) > 150) {
-              body.classList.add('is_locked');
-              this.current = 1;
-              this.done = 0;
-              window.scroll({
-                top: sections[sections.length - 1].offsetTop,
-                left: 0,
-                behavior: 'smooth'
-              })
-            }
-          }else if (this.current > 0 && this.current < sections.length ) {
-            this.done = 0;
-            this.current--;
-            window.scroll({
-              top: sections[this.current].getBoundingClientRect().top,
-              left: 0,
-              behavior: 'smooth'
-            })
-          }else if (this.current > 0) {
-            this.current--;
+          }else if (scroll < -1){
+            this.sub = 3;
           }
         }
       }
-      if (this.done === 1 && this.current == 2) {
-        console.log(scroll);
-        if (scroll > 1){
-          if (this.current = sections.length && this.sub !== 2) {
-            this.done = 0;
-            this.sub++;
-            // window.scroll({
-            //   top: sections[this.current].getBoundingClientRect().top,
-            //   left: 0,
-            //   behavior: 'smooth'
-            // })
-          }else {
-            if (this.current < 3 && this.sub == 2) {
-              this.current = 3;
-              body.classList.remove('is_locked');
-            }
-          }
-        }else if (scroll < -1){
-          if (this.current == 3) {
-            if (Math.round(next_top) > 150) {
-              body.classList.add('is_locked');
-              this.current = 1;
-              this.done = 0;
-              window.scroll({
-                top: sections[sections.length - 1].offsetTop,
-                left: 0,
-                behavior: 'smooth'
-              })
-            }
-          }else if (this.current > 0 && this.current < sections.length ) {
-            this.done = 0;
-            this.current--;
-            window.scroll({
-              top: sections[this.current].getBoundingClientRect().top,
-              left: 0,
-              behavior: 'smooth'
-            })
-          }else if (this.current > 0) {
-            this.current--;
-          }
-        }
-      }
+
     },
     contact: function () {
       let news = document.querySelector('.home__newletter');
