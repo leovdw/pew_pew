@@ -1,10 +1,18 @@
 
 .hidden{
-  transform: translateY( calc( -50% + 40px)) !important;
+   transform: translateY( calc( -50% + 80px)) !important;
    opacity: 0;
    transition: all linear .6s;
+   transition-delay: 2s;
+}
+.up{
+  transition-delay: 2s;
+  transform: translateY( calc( -50% - 80px)) !important;
+  opacity: 0;
+  transition: all linear .6s;
 }
 .show{
+
   transform: translateY(-50%);
   opacity: 1;
   transition: all linear .6s;

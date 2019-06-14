@@ -88,9 +88,9 @@
       <div class="has_scroll">
         <div class="home__blow">
           <div>
-            <h2 :class="['no_dash', (this.sub == 0 ? 'show' : 'hidden')]" >Tu souhaites réapprendre à t’aimer suite à une rupture difficile ?</h2>
-            <h2 :class="['no_dash', (this.sub == 1 ? 'show' : 'hidden')]" >Tu crois en ta capacité à vivre seule ?</h2>
-            <h2 :class="['no_dash', (this.sub == 2 ? 'show' : 'hidden')]" >Et tu souhaites atteindre tes objectifs ?</h2>
+            <h2 :class="['no_dash', (this.sub == 0 ? 'show' : 'hidden'), (this.sub > 0 ? 'up' : '') ]" >Tu souhaites réapprendre à t’aimer suite à une rupture difficile ?</h2>
+            <h2 :class="['no_dash', (this.sub == 1 ? 'show' : 'hidden'), (this.sub > 1 ? 'up' : '')]" >Tu crois en ta capacité à vivre seule ?</h2>
+            <h2 :class="['no_dash', (this.sub == 2 ? 'show' : 'hidden'), (this.sub > 2 ? 'up' : '')]" >Et tu souhaites atteindre tes objectifs ?</h2>
             <h2 :class="['no_dash', (this.sub == 3 ? 'show' : 'hidden')]" >Très bien, tu es une célibattante !</h2>
           </div>
         </div>
