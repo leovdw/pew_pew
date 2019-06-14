@@ -9,11 +9,17 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' }
+      { hid: 'description', name: 'description', content: '' },
+      {
+        'property': 'og:title',
+        'content': 'Winkle',
+        'template': chunk => `${chunk} - Home`, //or as string template: '%s - My page',
+        'vmid': 'og:title'
+      },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href:'https://fonts.googleapis.com/css?family=Ubuntu:400,500,700&display=swap'}
+      { rel: 'stylesheet', href:'https://fonts.googleapis.com/css?family=Ubuntu:400,500,700&display=swap', type:"text/javascript"},
     ]
   },
   /*
