@@ -184,8 +184,8 @@
         </div>
       </div>
 
-      <!-- <div class="home__how"> -->
-        <!-- <h2>Comment ça marche ?</h2>
+      <div class="home__how"> -->
+        <h2>Comment ça marche ?</h2>
         <ul>
           <li>
             <i>1</i>
@@ -208,7 +208,7 @@
             <p>Un large choix d’activités t’est proposé : sport, loisirs créatifs, musique, loisirs culturels… Afin de te détendre, sortir de ta zone de confort, développer ton potentiel...</p>
           </li>
         </ul>
-      </div> -->
+      </div>
 
       <!-- <div class="home__why"> -->
         <!-- <h2>Pourquoi choisir Winkle ?</h2>
