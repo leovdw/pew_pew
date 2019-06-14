@@ -304,7 +304,6 @@
             </defs>
           </svg>
         </div>
-      </div>
     </div>
     <!-- <footer class="footer">
       <div class="footer--logo">

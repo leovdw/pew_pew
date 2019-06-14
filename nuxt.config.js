@@ -73,6 +73,7 @@ export default {
       }
     }
   },
+
   modules: [
     'nuxt-babel',
   ]
