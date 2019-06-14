@@ -317,102 +317,34 @@ h2:not(.no_dash){
         }
       }
     }
+
+    h4{
+      text-align: center;
+      color: $blue;
+      margin-top: 55px;
+      margin-bottom: 20px;
+    }
+    h5{
+      text-align: center;
+    }
   }
 
-  &__how{
+  &__newsletter{
+    margin-top: 140px;
     display: flex;
     justify-content: space-between;
     max-width: 1400px;
     width: 90%;
     margin: 0 auto;
-    margin-top: 150px;
+    margin-top: 90px;
     align-items: center;
-    flex-direction: column;
 
-    & + h2{
-      font-weight: bold;
-      font-size: 36px;
-      line-height: 31px;
-      text-align: center;
-      margin-top: 70px;
-      margin-bottom: 60px;
-    }
+    &--form{
+      h3{
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 57px;
 
-    h2{
-      font-weight: bold;
-      font-size: 50px;
-      line-height: 64px;
-      text-align: center;
-      margin: 0;
-      margin-bottom: 200px;
-
-      @include breakpoint($medium, down){
-        margin-bottom: 100px;
-      }
-    }
-
-    ul{
-      display: flex;
-      justify-content: space-between;
-      @include breakpoint($large, down){
-        flex-wrap: wrap;
-      }
-
-      @include breakpoint($medium, down){
-        justify-content: center;
-      }
-
-      li{
-        position: relative;
-        width: calc((100% - 10%) / 4);
-
-        @include breakpoint($large, down){
-          margin-bottom: 150px;
-          width: calc((100% - 10%) / 2);
-        }
-
-        @include breakpoint($medium, down){
-          margin-bottom: 70px;
-          width: 90%;
-        }
-
-
-        i{
-          position: absolute;
-          font-size: 206px;
-          line-height: 237px;
-          opacity: 0.3;
-          color: $blue;
-          font-style: normal;
-          font-weight: normal;
-          top: 0;
-          transform: translateY(-63%);
-
-          @include breakpoint($medium, down){
-            font-size: 80px;
-            line-height: 80px;
-            left: 50%;
-            transform: translateY(-63%) translateX(-50%);
-          }
-        }
-        h4{
-          font-weight: bold;
-          font-size: 21px;
-          line-height: 31px;
-          color: $blue;
-
-          @include breakpoint($medium, down){
-            text-align: center;
-          }
-        }
-        p{
-          color: $blue;
-          font-size: 16px;
-          line-height: 24px;
-          @include breakpoint($medium, down){
-            text-align: center;
-          }
-        }
       }
     }
   }
