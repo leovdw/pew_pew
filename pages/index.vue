@@ -310,7 +310,6 @@
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
 
 export default {
   data : function () {
@@ -320,9 +319,6 @@ export default {
       done: 1,
       sub: 0,
     }
-  },
-  components: {
-    Logo
   },
   mounted(){
     this.m_init();
