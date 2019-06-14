@@ -1,6 +1,7 @@
 <template>
-  <div v-scroll="handleScroll">
+  <div v-scroll="handleScroll" :class="[(this.current < 3 ? 'is_locked' : '')]">
     <div class="main-menu">
+      <h1 style="display: none;">Winkle</h1>
       <svg width="124" height="25" viewBox="0 0 124 25" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
         <rect width="124" height="25" fill="url(#pattern0)"/>
         <defs>
@@ -88,7 +89,7 @@
       <div class="has_scroll">
         <div class="home__blow">
           <div>
-            <h2 :class="['no_dash', (this.sub == 0 ? 'show' : 'hidden'), (this.sub > 0 ? 'up' : '') ]" >Tu souhaites réapprendre à t’aimer suite à une rupture difficile ?</h2>
+            <h2 :class="['no_dash', (this.sub == 0 ? 'show' : 'hidden'), (this.sub > 0 ? 'up' : '')]" >Tu souhaites réapprendre à t’aimer suite à une rupture difficile ?</h2>
             <h2 :class="['no_dash', (this.sub == 1 ? 'show' : 'hidden'), (this.sub > 1 ? 'up' : '')]" >Tu crois en ta capacité à vivre seule ?</h2>
             <h2 :class="['no_dash', (this.sub == 2 ? 'show' : 'hidden'), (this.sub > 2 ? 'up' : '')]" >Et tu souhaites atteindre tes objectifs ?</h2>
             <h2 :class="['no_dash', (this.sub == 3 ? 'show' : 'hidden')]" >Très bien, tu es une célibattante !</h2>

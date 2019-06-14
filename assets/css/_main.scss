@@ -3,7 +3,7 @@
    transform: translateY( calc( -50% + 80px)) !important;
    opacity: 0;
    transition: all linear .6s;
-   transition-delay: 1.5s;
+   transition-delay: 4s;
 }
 .up{
   // transition-delay: 2s;
@@ -131,7 +131,7 @@ h2:not(.no_dash){
         display: flex;
         align-items: center;
 
-        @include breakpoint($small, down){
+        @include breakpoint($medium, down){
            display: none;
          }
 

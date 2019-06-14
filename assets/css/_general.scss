@@ -51,3 +51,36 @@ ul{
     margin: 0;
   }
 }
+
+.conf{
+  max-width: 90%;
+  margin: 0 auto;
+
+  & > a{
+    color: $yellow;
+    text-decoration: none;
+    position: relative;
+    font-size: 20px;
+    padding-left: 15px;
+
+    &::before{
+      content: "";
+      position: absolute;
+      font-weight: bold;
+      width: 15px;
+      height: 15px;
+      top: 5px;
+      transform: rotate( -45deg);
+      border-top: 2px solid #FFD02B;
+      border-left: 2px solid #FFD02B;
+      left: -10px;
+    }
+  }
+  h2{
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  p{
+    margin:15px 0 ;
+  }
+}
