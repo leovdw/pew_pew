@@ -88,7 +88,7 @@
       <div class="has_scroll">
         <div class="home__blow">
           <transition name="blow" apear>
-            <div class="" v-if="this.current >= 1">
+            <div class="" v-show="this.current >= 1">
               <h2 class="no_dash" v-show="this.sub = 0">Tu n'arrive plus a t'aimer suite a une rupture difficile 1?</h2>
               <h2 class="no_dash" v-show="this.sub = 1">Tu n'arrive plus a t'aimer suite a une rupture difficile 2?</h2>
               <h2 class="no_dash" v-show="this.sub = 2">Tu n'arrive plus a t'aimer suite a une rupture difficile 3?</h2>
