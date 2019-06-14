@@ -67,9 +67,10 @@ export default {
         })
       }
     }
-  },  
+  },
   modules: [
-  ],
+    'nuxt-babel',
+  ]
   /*
   ** Build configuration
   */
