@@ -1,6 +1,16 @@
 .is_locked{
   overflow: hidden;
 }
+.blow-before-start{
+  opacity : 0;
+}
+.blow-enter-active, .blow-leave-active {
+  transition-delay: 4s;
+  transition: opacity .5s;
+}
+.blow-enter, .blow-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}
 
 .main-menu{
   display: flex;

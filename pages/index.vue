@@ -22,7 +22,7 @@
             Adieu dépendance affective et bonjour estime de soi !
           </p>
           <div class="home__intro--btns">
-              <a href="#">je m'inscris</a>
+              <a href="#" @click="contact()">je m'inscris</a>
               <a href="#">Voir la présentation
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M12.2667 10.8C12.8001 10.4 12.8001 9.59996 12.2667 9.19996L9.93341 7.44996C9.27418 6.95553 8.33341 7.42591 8.33341 8.24996V11.75C8.33341 12.574 9.27418 13.0444 9.93341 12.55L12.2667 10.8ZM1.66675 9.99996C1.66675 14.6 5.40008 18.3333 10.0001 18.3333C14.6001 18.3333 18.3334 14.6 18.3334 9.99996C18.3334 5.39996 14.6001 1.66663 10.0001 1.66663C5.40008 1.66663 1.66675 5.39996 1.66675 9.99996ZM3.33341 9.99996C3.33341 6.32496 6.32508 3.33329 10.0001 3.33329C13.6751 3.33329 16.6667 6.32496 16.6667 9.99996C16.6667 13.675 13.6751 16.6666 10.0001 16.6666C6.32508 16.6666 3.33341 13.675 3.33341 9.99996Z" fill="#C2D1D9"/>
@@ -85,8 +85,16 @@
         </svg>
       </div>
 
-      <div class="home__blow has_scroll">
-        <h2 class="no_dash">Tu n'arrive plus a t'aimer suite a une rupture difficile ?</h2>
+      <div class="has_scroll">
+        <div class="home__blow">
+          <transition name="blow" apear>
+            <div class="" v-if="this.current >= 1">
+              <h2 class="no_dash" v-if="this.sub = 0">Tu n'arrive plus a t'aimer suite a une rupture difficile 1?</h2>
+              <h2 class="no_dash" v-if="this.sub = 1">Tu n'arrive plus a t'aimer suite a une rupture difficile 2?</h2>
+              <h2 class="no_dash" v-if="this.sub = 2">Tu n'arrive plus a t'aimer suite a une rupture difficile 3?</h2>
+            </div>
+          </transition>
+        </div>
       </div>
 
       <div class="home__sum home__exp">
@@ -259,6 +267,7 @@ export default {
       current : 0,
       is_locked : true,
       done: 1,
+      sub: 0,
     }
   },
   components: {
@@ -290,7 +299,7 @@ export default {
        }, 500);
       }
 
-      if (this.done === 1) {
+      if (this.done === 1 && this.current !== 2) {
         if (scroll > 1){
           if (this.current < sections.length - 1) {
             this.done = 0;
@@ -310,11 +319,53 @@ export default {
           }
         }else if (scroll < -1){
           if (this.current == 3) {
-            this.done = 0;
             if (Math.round(next_top) > 150) {
               body.classList.add('is_locked');
               this.current = 1;
-              console.log();
+              this.done = 0;
+              window.scroll({
+                top: sections[sections.length - 1].offsetTop,
+                left: 0,
+                behavior: 'smooth'
+              })
+            }
+          }else if (this.current > 0 && this.current < sections.length ) {
+            this.done = 0;
+            this.current--;
+            window.scroll({
+              top: sections[this.current].getBoundingClientRect().top,
+              left: 0,
+              behavior: 'smooth'
+            })
+          }else if (this.current > 0) {
+            this.current--;
+          }
+        }
+      }
+      if (this.done === 1 && this.current == 2) {
+        if (scroll > 1){
+          if (this.current < sections.length - 1) {
+            this.done = 0;
+            this.current++;
+            window.scroll({
+              top: sections[this.current].getBoundingClientRect().top,
+              left: 0,
+              behavior: 'smooth'
+            })
+          }else {
+            if (this.current < 3) {
+              this.current++;
+              if (this.current == 3) {
+                body.classList.remove('is_locked');
+              }
+            }
+          }
+        }else if (scroll < -1){
+          if (this.current == 3) {
+            if (Math.round(next_top) > 150) {
+              body.classList.add('is_locked');
+              this.current = 1;
+              this.done = 0;
               window.scroll({
                 top: sections[sections.length - 1].offsetTop,
                 left: 0,
@@ -335,6 +386,21 @@ export default {
         }
       }
     },
+    contact: function () {
+      let news = document.querySelector('.home__newletter');
+      let body = body ? body : document.querySelector('body');
+
+      window.scroll({
+        top: news.getBoundingClientRect().top,
+        left: 0,
+        behavior: 'smooth'
+      })
+
+      this.current = 3;
+      this.done = 1;
+
+      body.classList.remove('is_locked');
+    }
   },
 }
 </script>
