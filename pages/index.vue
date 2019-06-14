@@ -306,6 +306,7 @@
           </svg>
         </div>
       </div>
+    </div>
     <footer class="footer">
       <div class="footer--logo">
         <svg width="124" height="25" viewBox="0 0 124 25" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
