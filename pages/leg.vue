@@ -387,90 +387,91 @@ export default {
          this.done = 1;
        }, 500);
       }
-
-      if (this.done === 1 && this.current !== 2) {
-        if (scroll > 1){
-          if (this.current < sections.length - 1) {
-            this.done = 0;
-            this.current++;
-            window.scroll({
-              top: sections[this.current].getBoundingClientRect().top,
-              left: 0,
-              behavior: 'smooth'
-            })
-          }else {
-            if (this.current < 3) {
-              this.current++;
-              if (this.current == 3) {
-                body.classList.remove('is_locked');
-              }
-            }
-          }
-        }else if (scroll < -1){
-          if (this.current == 3) {
-            if (Math.round(next_top) > 150) {
-              body.classList.add('is_locked');
-              this.current = 1;
+      if(typeof window !== 'undefined'){
+        if (this.done === 1 && this.current !== 2) {
+          if (scroll > 1){
+            if (this.current < sections.length - 1) {
               this.done = 0;
+              this.current++;
               window.scroll({
-                top: sections[sections.length - 1].offsetTop,
+                top: sections[this.current].getBoundingClientRect().top,
                 left: 0,
                 behavior: 'smooth'
               })
+            }else {
+              if (this.current < 3) {
+                this.current++;
+                if (this.current == 3) {
+                  body.classList.remove('is_locked');
+                }
+              }
             }
-          }else if (this.current > 0 && this.current < sections.length ) {
-            this.done = 0;
-            this.current--;
-            window.scroll({
-              top: sections[this.current].getBoundingClientRect().top,
-              left: 0,
-              behavior: 'smooth'
-            })
-          }else if (this.current > 0) {
-            this.current--;
+          }else if (scroll < -1){
+            if (this.current == 3) {
+              if (Math.round(next_top) > 150) {
+                body.classList.add('is_locked');
+                this.current = 1;
+                this.done = 0;
+                window.scroll({
+                  top: sections[sections.length - 1].offsetTop,
+                  left: 0,
+                  behavior: 'smooth'
+                })
+              }
+            }else if (this.current > 0 && this.current < sections.length ) {
+              this.done = 0;
+              this.current--;
+              window.scroll({
+                top: sections[this.current].getBoundingClientRect().top,
+                left: 0,
+                behavior: 'smooth'
+              })
+            }else if (this.current > 0) {
+              this.current--;
+            }
           }
         }
-      }
-      if (this.done === 1 && this.current == 2) {
-        if (scroll > 1){
-          if (this.current < sections.length - 1) {
-            this.done = 0;
-            this.current++;
-            window.scroll({
-              top: sections[this.current].getBoundingClientRect().top,
-              left: 0,
-              behavior: 'smooth'
-            })
-          }else {
-            if (this.current < 3) {
-              this.current++;
-              if (this.current == 3) {
-                body.classList.remove('is_locked');
-              }
-            }
-          }
-        }else if (scroll < -1){
-          if (this.current == 3) {
-            if (Math.round(next_top) > 150) {
-              body.classList.add('is_locked');
-              this.current = 1;
+        if (this.done === 1 && this.current == 2) {
+          if (scroll > 1){
+            if (this.current < sections.length - 1) {
               this.done = 0;
+              this.current++;
               window.scroll({
-                top: sections[sections.length - 1].offsetTop,
+                top: sections[this.current].getBoundingClientRect().top,
                 left: 0,
                 behavior: 'smooth'
               })
+            }else {
+              if (this.current < 3) {
+                this.current++;
+                if (this.current == 3) {
+                  body.classList.remove('is_locked');
+                }
+              }
             }
-          }else if (this.current > 0 && this.current < sections.length ) {
-            this.done = 0;
-            this.current--;
-            window.scroll({
-              top: sections[this.current].getBoundingClientRect().top,
-              left: 0,
-              behavior: 'smooth'
-            })
-          }else if (this.current > 0) {
-            this.current--;
+          }else if (scroll < -1){
+            if (this.current == 3) {
+              if (Math.round(next_top) > 150) {
+                body.classList.add('is_locked');
+                this.current = 1;
+                this.done = 0;
+                window.scroll({
+                  top: sections[sections.length - 1].offsetTop,
+                  left: 0,
+                  behavior: 'smooth'
+                })
+              }
+            }else if (this.current > 0 && this.current < sections.length ) {
+              this.done = 0;
+              this.current--;
+              window.scroll({
+                top: sections[this.current].getBoundingClientRect().top,
+                left: 0,
+                behavior: 'smooth'
+              })
+            }else if (this.current > 0) {
+              this.current--;
+            }
           }
         }
       }
