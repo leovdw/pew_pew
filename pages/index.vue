@@ -235,9 +235,10 @@
         <div class="home__newsletter--form">
           <h3>Tu souhaites entendre parler de nous ?</h3>
           <p>Si tu souhaites être tenue au courant des actualités de notre projet, et savoir quand nous le lancerons officiellement, n’hésite pas à laisser ton mail !</p>
-          <form name="contact" method="POST" netlify>
-              <input type="email" name="email" placeholder="Email"/>
-              <button type="submit">Inscription</button>
+          <form name="contact" method="POST" netlify data-netlify-honeypot>
+            <input type="hidden" name="" value="">
+            <input type="email" name="email" placeholder="Email"/>
+            <button type="submit">Inscription</button>
           </form>
         </div>
         <div class="home__newsletter--img">
