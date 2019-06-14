@@ -231,8 +231,8 @@
 
       </div>
 
-      <!-- <div class="home__newsletter"> -->
-        <!-- <div class="home__newsletter--form">
+      <div class="home__newsletter">
+        <div class="home__newsletter--form">
           <h3>Tu souhaites entendre parler de nous ?</h3>
           <p>Si tu souhaites être tenue au courant des actualités de notre projet, et savoir quand nous le lancerons officiellement, n’hésite pas à laisser ton mail !</p>
           <form name="contact" method="POST" data-netlify="true">
@@ -305,8 +305,8 @@
           </svg>
         </div>
       </div>
-    </div> -->
-    <!-- <footer class="footer"> -->
+    </div>
+    <!-- <footer class="footer">
       <div class="footer--logo">
         <svg width="124" height="25" viewBox="0 0 124 25" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
           <rect width="124" height="25" fill="url(#pattern0)"/>
@@ -347,7 +347,7 @@
         <nuxt-link to="/conf">Politique de confidentialité</nuxt-link>
         <nuxt-link to="/leg">Mentions légales</nuxt-link>
       </div>
-    </footer>
+    </footer> -->
   </div>
 </template>
 
