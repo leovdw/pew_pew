@@ -3,7 +3,7 @@
    transform: translateY( calc( -50% + 80px)) !important;
    opacity: 0;
    transition: all linear .6s;
-   transition-delay: 1s;
+   transition-delay: 1.5s;
 }
 .up{
   // transition-delay: 2s;
@@ -144,7 +144,7 @@ h2:not(.no_dash){
     padding-top: 80px;
     padding-bottom: 80px;
     height: 100vh;
-    max-width: 50%;
+    max-width: 60%;
     padding-left: 65px;
     // border-left: 5px solid #FFD02B;
     margin: 0 auto;
@@ -152,6 +152,48 @@ h2:not(.no_dash){
     display: flex;
     position: relative;
 
+    @include breakpoint($medium, down){
+      display: none;
+    }
+
+    &.responsive{
+      display: none;
+      min-height: 100vh;
+      height: auto;
+      padding: 0;
+
+      &::before{
+        display: none;
+      }
+
+      @include breakpoint($medium, down){
+        display: flex;
+      }
+
+      h2{
+        position: relative;
+        font-size: 38px;
+        line-height: 124.5%;
+        margin-top: 80px;
+        transform: translateY(0);
+        padding: 30px 0;
+
+        &.even{
+          text-align: right;
+          padding-right: 20px;
+          border-right: 2px solid $yellow;
+        }
+
+        &.odd{
+          padding-left: 20px;
+          border-left: 2px solid $yellow;
+        }
+        &:last-child{
+          text-align: center;
+          border: 0;
+        }
+      }
+    }
     &::before{
       content: '';
       height: 60vh;

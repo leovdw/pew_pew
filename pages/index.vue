@@ -94,6 +94,14 @@
             <h2 :class="['no_dash', (this.sub == 3 ? 'show' : 'hidden')]" >Très bien, tu es une célibattante !</h2>
           </div>
         </div>
+        <div class="home__blow responsive">
+          <div>
+            <h2 class="no_dash even">Tu souhaites réapprendre à t’aimer suite à une rupture difficile ?</h2>
+            <h2 class="no_dash odd">Tu crois en ta capacité à vivre seule ?</h2>
+            <h2 class="no_dash even">Et tu souhaites atteindre tes objectifs ?</h2>
+            <h2 class="no_dash odd">Très bien, tu es une célibattante !</h2>
+          </div>
+        </div>
       </div>
 
       <div class="home__sum home__exp">
