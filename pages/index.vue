@@ -89,9 +89,9 @@
         <div class="home__blow">
           <transition name="blow" apear>
             <div class="" v-show="this.current >= 1">
-              <h2 class="no_dash" v-show="this.sub = 0">Tu n'arrive plus a t'aimer suite a une rupture difficile 1?</h2>
-              <h2 class="no_dash" v-show="this.sub = 1">Tu n'arrive plus a t'aimer suite a une rupture difficile 2?</h2>
-              <h2 class="no_dash" v-show="this.sub = 2">Tu n'arrive plus a t'aimer suite a une rupture difficile 3?</h2>
+              <h2 class="no_dash" v-show="this.sub == 0">Tu n'arrive plus a t'aimer suite a une rupture difficile 1?</h2>
+              <h2 class="no_dash" v-show="this.sub == 1">Tu n'arrive plus a t'aimer suite a une rupture difficile 2?</h2>
+              <h2 class="no_dash" v-show="this.sub == 2">Tu n'arrive plus a t'aimer suite a une rupture difficile 3?</h2>
             </div>
           </transition>
         </div>
@@ -184,7 +184,7 @@
         </div>
       </div>
 
-      <div class="home__how"> -->
+      <div class="home__how">
         <h2>Comment ça marche ?</h2>
         <ul>
           <li>
@@ -306,7 +306,9 @@
           </svg>
         </div>
       </div>
+
     </div>
+
     <footer class="footer">
       <div class="footer--logo">
         <svg width="124" height="25" viewBox="0 0 124 25" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -349,6 +351,7 @@
         <nuxt-link to="/leg">Mentions légales</nuxt-link>
       </div>
     </footer>
+
   </div>
 </template>
 
@@ -433,21 +436,20 @@ export default {
         }
       }
       if (this.done === 1 && this.current == 2) {
+        console.log(scroll);
         if (scroll > 1){
-          if (this.current < sections.length - 1) {
+          if (this.current = sections.length && this.sub !== 2) {
             this.done = 0;
-            this.current++;
-            window.scroll({
-              top: sections[this.current].getBoundingClientRect().top,
-              left: 0,
-              behavior: 'smooth'
-            })
+            this.sub++;
+            // window.scroll({
+            //   top: sections[this.current].getBoundingClientRect().top,
+            //   left: 0,
+            //   behavior: 'smooth'
+            // })
           }else {
-            if (this.current < 3) {
-              this.current++;
-              if (this.current == 3) {
-                body.classList.remove('is_locked');
-              }
+            if (this.current < 3 && this.sub == 2) {
+              this.current = 3;
+              body.classList.remove('is_locked');
             }
           }
         }else if (scroll < -1){
