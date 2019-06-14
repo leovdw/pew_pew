@@ -43,7 +43,6 @@ export default {
   */
   build: {
     extractCSS: false,
-
     optimization: {
       splitChunks: {
         cacheGroups: {

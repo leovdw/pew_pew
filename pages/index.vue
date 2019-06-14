@@ -1,5 +1,5 @@
 <template>
-  <div  v-scroll="handleScroll">
+  <!-- <div v-scroll="handleScroll"> -->
     <div class="main-menu">
       <svg width="124" height="25" viewBox="0 0 124 25" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
         <rect width="124" height="25" fill="url(#pattern0)"/>
@@ -87,13 +87,13 @@
 
       <div class="has_scroll">
         <div class="home__blow">
-          <!-- <transition name="blow" apear> -->
-            <!-- <div class="" v-show="this.current >= 1">
+          <transition name="blow" apear>
+            <div class="" v-show="this.current >= 1">
               <h2 class="no_dash" v-show="this.sub = 0">Tu n'arrive plus a t'aimer suite a une rupture difficile 1?</h2>
               <h2 class="no_dash" v-show="this.sub = 1">Tu n'arrive plus a t'aimer suite a une rupture difficile 2?</h2>
               <h2 class="no_dash" v-show="this.sub = 2">Tu n'arrive plus a t'aimer suite a une rupture difficile 3?</h2>
-            </div> -->
-          <!-- </transition> -->
+            </div>
+          </transition>
         </div>
       </div>
 
