@@ -532,7 +532,14 @@ export default {
       body.classList.remove('is_locked');
     },
     mailchimp: function () {
-      axios.get('https://us3.api.mailchimp.com/3.0/', { 'headers': { 'Authorization': '8bcd5321b65073c0c36bd2f4b318d6af-us3' } })
+      axios.get('https://us3.api.mailchimp.com/3.0/', {
+         'headers': {
+           'Accept': 'application/json',
+           'Content-Type': 'application/json',
+           'Authorization': '8bcd5321b65073c0c36bd2f4b318d6af-us3',
+           'Access-Control-Allow-Origin': '*'
+          }
+         })
         .then((response => {
           console.log(response.data);
         }))
