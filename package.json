@@ -19,7 +19,7 @@
     "vue-accordion": "^1.0.0"
   },
   "devDependencies": {
-    "@nuxtjs/axios": "^5.4.1",
+    "@nuxtjs/axios": "^5.5.4",
     "babel-eslint": "^10.0.1",
     "babel-plugin-dynamic-import-node": "^2.2.0",
     "eslint": "^4.19.1",

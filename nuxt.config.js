@@ -147,7 +147,13 @@ export default {
 
   modules: [
     'nuxt-babel',
+    '@nuxtjs/axios',
   ],
+
+  axios: {
+    https: true
+    // proxyHeaders: false
+  }
   // generate: {
   //   routes: function () {
   //     return '/conf'

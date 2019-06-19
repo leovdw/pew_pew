@@ -295,13 +295,14 @@
         <div class="home__newsletter--form">
           <h3>Tu souhaites entendre parler de nous ?</h3>
           <p>Si tu souhaites être tenue au courant des actualités de notre projet, et savoir quand nous le lancerons officiellement, n’hésite pas à laisser ton mail !</p>
+
           <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
                 <input type="hidden" name="form-name" value="contact" />
              <p>
                 <input type="email" name="email" placeholder="Email"/>
              </p>
              <p>
-                <button type="submit">Inscription</button>
+                <button type="submit" v-on:click="mailchimp()">Inscription</button>
              </p>
           </form>
         </div>
@@ -416,6 +417,7 @@
 </template>
 
 <script>
+import axios from 'axios';
 
 export default {
   data : function () {
@@ -528,6 +530,14 @@ export default {
       this.done = 1;
 
       body.classList.remove('is_locked');
+    },
+    mailchimp: function () {
+      axios.get('https://us3.api.mailchimp.com/3.0/', { 'headers': { 'Authorization': '8bcd5321b65073c0c36bd2f4b318d6af-us3' } })
+        .then((response => {
+          console.log(response.data);
+        }))
+
+
     }
   },
 }
