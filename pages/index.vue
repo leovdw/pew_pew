@@ -532,17 +532,42 @@ export default {
       body.classList.remove('is_locked');
     },
     mailchimp: function () {
-      axios.get('https://us3.api.mailchimp.com/3.0/', {
-         'headers': {
-           'Accept': 'application/json',
-           'Content-Type': 'application/json',
-           'Authorization': '8bcd5321b65073c0c36bd2f4b318d6af-us3',
-           'Access-Control-Allow-Origin': '*'
-          }
-         })
-        .then((response => {
-          console.log(response.data);
-        }))
+
+      // fetch('https://us3.api.mailchimp.com/3.0/', {
+      //     method: "GET", // *GET, POST, PUT, DELETE, etc.
+      //     mode: "cors", // no-cors, cors, *same-origin
+      //     cache: "no-cache", // *default, no-cache, reload, force-cache, only-if-cached
+      //     credentials: "same-origin", // include, *same-origin, omit
+      //     headers: {
+      //         "Accept": "application/json",
+      //         "Authorization": "8bcd5321b65073c0c36bd2f4b318d6af-us3",
+      //         'Access-Control-Allow-Origin': '*',
+      //         'Accept': '*/*',
+      //         // "Content-Type": "application/x-www-form-urlencoded",
+      //     },
+      //     redirect: "follow", // manual, *follow, error
+      //     referrer: "no-referrer", // no-referrer, *client
+      // })
+      //     .then(res => console.log(res))
+      //     .then(json => {
+      //         if (json.length > 0) {
+      //             console.log(json);
+      //             this.chatrooms_message = json;
+      //         }
+      //     })
+      // axios.get('https://us3.api.mailchimp.com/3.0/', {
+      //    'headers': {
+      //      'Accept': 'application/json',
+      //      'Content-Type': 'application/json',
+      //      'Authorization': '8bcd5321b65073c0c36bd2f4b318d6af-us3'
+      //      'Access-Control-Allow-Origin': '*',
+      //      'crossorigin': 'true',
+      //      'Accept': '*/*',
+      //     }
+      //    })
+      //   .then((response => {
+      //     console.log(response.data);
+      //   }))
 
 
     }
