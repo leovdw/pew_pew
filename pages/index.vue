@@ -396,7 +396,7 @@
               </a>
             </li>
             <li>
-              <a href="#" title="Instagram Social Media" target="_blank">
+              <a href="https://www.instagram.com/makeitwinkle/" title="Instagram Social Media" target="_blank">
                 <svg width="28" height="28" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M53.1797 69.5346H17.3548C8.32074 69.5346 1 62.2138 1 53.1797V20.47C1 9.72258 9.72258 1 20.47 1H53.1797C62.2138 1 69.5346 8.32074 69.5346 17.3548V53.1797C69.5346 62.2138 62.2138 69.5346 53.1797 69.5346Z" fill="#FFD02B" stroke="#FFD02B" stroke-width="0.75" stroke-miterlimit="10"/>
                   <path d="M35.8124 47.5724C43.2105 47.5724 49.2078 41.5751 49.2078 34.177C49.2078 26.7789 43.2105 20.7816 35.8124 20.7816C28.4143 20.7816 22.417 26.7789 22.417 34.177C22.417 41.5751 28.4143 47.5724 35.8124 47.5724Z" fill="#FFD02B" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
