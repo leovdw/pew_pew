@@ -405,7 +405,7 @@
             </li>
           </ul>
         </div>
-        <h4>©2019 - WInkle  |  Tous droits réservés</h4>
+        <h4>©2019 - Winkle  |  Tous droits réservés</h4>
       </div>
       <div class="footer--legal">
         <nuxt-link to="/conf">Politique de confidentialité</nuxt-link>
@@ -535,12 +535,12 @@ export default {
 
       // fetch('https://us3.api.mailchimp.com/3.0/', {
       //     method: "GET", // *GET, POST, PUT, DELETE, etc.
-      //     mode: "cors", // no-cors, cors, *same-origin
+      //     mode: "no-cors", // no-cors, cors, *same-origin
       //     cache: "no-cache", // *default, no-cache, reload, force-cache, only-if-cached
       //     credentials: "same-origin", // include, *same-origin, omit
       //     headers: {
       //         "Accept": "application/json",
-      //         "Authorization": "8bcd5321b65073c0c36bd2f4b318d6af-us3",
+      //         "Authorization": `user ${process.env.MAILCHIMP_API_CODE}`,
       //         'Access-Control-Allow-Origin': '*',
       //         'Accept': '*/*',
       //         // "Content-Type": "application/x-www-form-urlencoded",
@@ -548,18 +548,30 @@ export default {
       //     redirect: "follow", // manual, *follow, error
       //     referrer: "no-referrer", // no-referrer, *client
       // })
-      //     .then(res => console.log(res))
+      //     .then(res => console.log(res.text()))
       //     .then(json => {
-      //         if (json.length > 0) {
-      //             console.log(json);
-      //             this.chatrooms_message = json;
-      //         }
+      //         console.log(json);
       //     })
+      fetch("https://us3.api.mailchimp.com/3.0/", {
+        "method": "GET",
+        "mode": "no-cors",
+        "headers": {
+          // "cookie": "_AVESTA_ENVIRONMENT=prod; _mcid=1.af274a9992d5828b4e381b76b387880c",
+
+          "authorization": "user 8bcd5321b65073c0c36bd2f4b318d6af-us3"
+        }
+      })
+      .then(response => {
+        console.log(response);
+      })
+      .catch(err => {
+        console.log(err);
+      });
       // axios.get('https://us3.api.mailchimp.com/3.0/', {
       //    'headers': {
       //      'Accept': 'application/json',
       //      'Content-Type': 'application/json',
-      //      'Authorization': '8bcd5321b65073c0c36bd2f4b318d6af-us3'
+      //      'Authorization': process.env.MAILCHIMP_API_CODE,
       //      'Access-Control-Allow-Origin': '*',
       //      'crossorigin': 'true',
       //      'Accept': '*/*',

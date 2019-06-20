@@ -1,3 +1,4 @@
+require('dotenv').config()
 
 export default {
   mode: 'universal',
@@ -9,7 +10,7 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      { hid: 'description', name: 'description', content: 'Site Winkle' },
       {
         'property': 'og:title',
         'content': 'Winkle',
@@ -148,12 +149,17 @@ export default {
   modules: [
     'nuxt-babel',
     '@nuxtjs/axios',
+    '@nuxtjs/dotenv',
   ],
 
   axios: {
     https: true
     // proxyHeaders: false
-  }
+  },
+  env: {
+    baseURL: process.env.MAILCHIMP_API_CODE
+  },
+
   // generate: {
   //   routes: function () {
   //     return '/conf'
