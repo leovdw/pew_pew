@@ -10,13 +10,13 @@ Winkle utilise Hotjar, un outil analytic qui nous permet de voir de nombreuses c
 Les cookies utilisé par Hotjar sont :
 Nom | Description | Durée
 --- | ----------- | ----
-hjClosedSurveyInvites | Cookie Hotjar. Ce cookie est défini dès qu'un visiteur interagit avec une fenêtre contextuelle modale d'invitation Survey. Il est utilisé pour garantir que la même invitation ne réapparaisse pas si elle a déjà été affichée. |	365 days
-hjDonePolls | Cookie Hotjar. Ce cookie est défini une fois qu'un visiteur a terminé un sondage à l'aide du widget Sondage commentaires. Il est utilisé pour garantir que le même sondage ne réapparaisse pas s'il a déjà été rempli.	 |	365 days
-hjMinimizedPolls | Cookie Hotjar. Ce cookie est défini dès qu'un visiteur minimise un widget Sondage de sondage. Il est utilisé pour garantir que le widget reste minimisé lorsque le visiteur navigue sur votre site. |	365 days
-hjDoneTestersWidgets | Cookie Hotjar. Ce cookie est défini une fois qu'un visiteur a soumis ses informations dans le widget Recruter des testeurs d'utilisateurs. Il est utilisé pour garantir que le même formulaire ne réapparaisse pas s'il a déjà été rempli. |	365 days
-hjMinimizedTestersWidgets | Cookie Hotjar. Ce cookie est défini dès qu'un visiteur minimise un widget Recruter des testeurs d'utilisateurs. Il est utilisé pour garantir que le widget reste minimisé lorsque le visiteur navigue sur votre site. |	365 days
-hjIncludedInSample	 | Hotjar cookie. This session cookie is set to let Hotjar know whether that visitor is included in the sample which is used to generate funnels. |	365 days
-hjShownFeedbackMessage | Ce cookie est défini lorsqu'un visiteur minimise ou complète les commentaires entrants. Ceci est fait pour que les commentaires entrants se chargent comme minimisés immédiatement s'ils naviguent vers une autre page où il est configuré pour s'afficher. |	365 days
+hjClosedSurveyInvites | Cookie Hotjar. Ce cookie est défini dès qu'un visiteur interagit avec une fenêtre contextuelle modale d'invitation Survey. Il est utilisé pour garantir que la même invitation ne réapparaisse pas si elle a déjà été affichée. | 365 days
+hjDonePolls | Cookie Hotjar. Ce cookie est défini une fois qu'un visiteur a terminé un sondage à l'aide du widget Sondage commentaires. Il est utilisé pour garantir que le même sondage ne réapparaisse pas s'il a déjà été rempli.	 | 365 days
+hjMinimizedPolls | Cookie Hotjar. Ce cookie est défini dès qu'un visiteur minimise un widget Sondage de sondage. Il est utilisé pour garantir que le widget reste minimisé lorsque le visiteur navigue sur votre site. | 365 days
+hjDoneTestersWidgets | Cookie Hotjar. Ce cookie est défini une fois qu'un visiteur a soumis ses informations dans le widget Recruter des testeurs d'utilisateurs. Il est utilisé pour garantir que le même formulaire ne réapparaisse pas s'il a déjà été rempli. | 365 days
+hjMinimizedTestersWidgets | Cookie Hotjar. Ce cookie est défini dès qu'un visiteur minimise un widget Recruter des testeurs d'utilisateurs. Il est utilisé pour garantir que le widget reste minimisé lorsque le visiteur navigue sur votre site. | 365 days
+hjIncludedInSample | Hotjar cookie. This session cookie is set to let Hotjar know whether that visitor is included in the sample which is used to generate funnels. |	365 days
+hjShownFeedbackMessage | Ce cookie est défini lorsqu'un visiteur minimise ou complète les commentaires entrants. Ceci est fait pour que les commentaires entrants se chargent comme minimisés immédiatement s'ils naviguent vers une autre page où il est configuré pour s'afficher. | 365 days
 
 ### Google Analytics  :
 
