@@ -99,6 +99,7 @@ h2:not(.no_dash){
         padding-bottom: 220px;
       }
     }
+
     p{
       font-weight: 300;
       font-size: 26px;
@@ -110,6 +111,7 @@ h2:not(.no_dash){
 
       @include breakpoint($medium, down){
         max-width: 100%;
+        text-align: center;
       }
 
       @include breakpoint($small, down){
@@ -197,7 +199,7 @@ h2:not(.no_dash){
       @include breakpoint($medium, down){
         width: 95%;
         right: 50%;
-        transform: translateY(-24%) translateX(50%);
+        transform: translateY(-32%) translateX(50%);
         top: 170px;
       }
     }
@@ -496,15 +498,27 @@ h2:not(.no_dash){
         @include breakpoint($medium, down){
 
           i{
-            transform: translateY(77%) translateX(23%);
+            transform: translateY(77%) translateX(15%);
             font-size: 190px;
           }
           &.even{
+            h4{
+              text-align: left;
+            }
+            p{
+              text-align: left;
+            }
             i{
               right: 0;
             }
           }
           &.odd{
+            h4{
+              text-align: right;
+            }
+            p{
+              text-align: right;
+            }
             i{
               left: 0;
             }
@@ -513,6 +527,14 @@ h2:not(.no_dash){
             }
           }
         }
+        @include breakpoint($small, down){
+
+          i{
+            transform: translateY(77%) translateX(-10%);
+            font-size: 190px;
+          }
+        }
+
 
 
 

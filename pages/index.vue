@@ -296,15 +296,16 @@
           <h3>Tu souhaites entendre parler de nous ?</h3>
           <p>Si tu souhaites être tenue au courant des actualités de notre projet, et savoir quand nous le lancerons officiellement, n’hésite pas à laisser ton mail !</p>
 
-          <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
-                <input type="hidden" name="form-name" value="contact" />
+          <form action="https://gmail.us3.list-manage.com/subscribe/post?u=037a47379309dec19ebb9ad0c&amp;id=eff0e464ce" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_037a47379309dec19ebb9ad0c_eff0e464ce" tabindex="-1" value=""></div>
              <p>
-                <input type="email" name="email" placeholder="Email" required/>
+                <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email" required>
              </p>
              <p>
-                <button type="submit" v-on:click="mailchimp()">Inscription</button>
+                <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe">Inscription</button>
              </p>
           </form>
+
         </div>
         <div class="home__newsletter--img">
           <svg width="463" height="381" viewBox="0 0 463 381" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -531,58 +532,6 @@ export default {
 
       body.classList.remove('is_locked');
     },
-    mailchimp: function () {
-
-      // fetch('https://us3.api.mailchimp.com/3.0/', {
-      //     method: "GET", // *GET, POST, PUT, DELETE, etc.
-      //     mode: "no-cors", // no-cors, cors, *same-origin
-      //     cache: "no-cache", // *default, no-cache, reload, force-cache, only-if-cached
-      //     credentials: "same-origin", // include, *same-origin, omit
-      //     headers: {
-      //         "Accept": "application/json",
-      //         "Authorization": `user ${process.env.MAILCHIMP_API_CODE}`,
-      //         'Access-Control-Allow-Origin': '*',
-      //         'Accept': '*/*',
-      //         // "Content-Type": "application/x-www-form-urlencoded",
-      //     },
-      //     redirect: "follow", // manual, *follow, error
-      //     referrer: "no-referrer", // no-referrer, *client
-      // })
-      //     .then(res => console.log(res.text()))
-      //     .then(json => {
-      //         console.log(json);
-      //     })
-      fetch("https://us3.api.mailchimp.com/3.0/", {
-        "method": "GET",
-        "mode": "no-cors",
-        "headers": {
-          // "cookie": "_AVESTA_ENVIRONMENT=prod; _mcid=1.af274a9992d5828b4e381b76b387880c",
-
-          "authorization": "user 8bcd5321b65073c0c36bd2f4b318d6af-us3"
-        }
-      })
-      .then(response => {
-        console.log(response);
-      })
-      .catch(err => {
-        console.log(err);
-      });
-      // axios.get('https://us3.api.mailchimp.com/3.0/', {
-      //    'headers': {
-      //      'Accept': 'application/json',
-      //      'Content-Type': 'application/json',
-      //      'Authorization': process.env.MAILCHIMP_API_CODE,
-      //      'Access-Control-Allow-Origin': '*',
-      //      'crossorigin': 'true',
-      //      'Accept': '*/*',
-      //     }
-      //    })
-      //   .then((response => {
-      //     console.log(response.data);
-      //   }))
-
-
-    }
   },
 }
 </script>
