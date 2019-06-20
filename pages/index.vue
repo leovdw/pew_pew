@@ -464,7 +464,7 @@ export default {
     },
     contact: function () {
       let news = document.querySelector('.home__newletter');
-      let body = body ? body : document.querySelector('body');
+      let body = document.querySelector('body');
 
       window.scroll({
         top: news.getBoundingClientRect().top,
