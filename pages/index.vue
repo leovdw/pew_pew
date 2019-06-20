@@ -518,7 +518,8 @@ export default {
 
     },
     contact: function () {
-      let news = document.querySelector('.home__newletter');
+      event.preventDefault();
+      let news = document.querySelector('.home__newsletter');
       let body = document.querySelector('body');
 
       window.scroll({

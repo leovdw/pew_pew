@@ -124,6 +124,8 @@ h2:not(.no_dash){
 
     &--btns{
       display: flex;
+      position: relative;
+      z-index: 99999;
 
       @include breakpoint($medium, down){
         justify-content: center;
