@@ -14,10 +14,27 @@
       history.scrollRestoration = 'manual';
     </script>
 
-    <script type="text/javascript">
-    var _iub = _iub || [];
-    _iub.csConfiguration = {"lang":"fr","siteId":1616362,"cookiePolicyId":54072312, "banner":{ "acceptButtonDisplay":true,"customizeButtonDisplay":true,"position":"float-top-center" }};
-    </script><script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>
+    <script>
+    window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#edeff5",
+          "text": "#838391"
+        },
+        "button": {
+          "background": "#178DF9"
+        },
+        "content": {
+          "message": "Ce site utilise des cookies pour vous garantir la meilleure expérience sur notre site.",
+          "dismiss": "ok !",
+          "href": "https://winkle.fr/conf"
+        }
+      }
+    })});
+    </script>
   </head>
   <body {{ BODY_ATTRS }} class="is_locked">
     <!-- Google Tag Manager (noscript) -->
@@ -25,21 +42,5 @@
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
     {{ APP }}
-    <script>
-    (function (w,d) {
-      var loader = function () {
-        var s = d.createElement('script'),
-        tag = d.getElementsByTagName('script')[0];
-        s.src="https://cdn.iubenda.com/iubenda.js";
-        tag.parentNode.insertBefore(s,tag);};
-        if(w.addEventListener){
-          w.addEventListener('load', loader, false);
-        }else if(w.attachEvent){
-          w.attachEvent('onload', loader);
-        }else{
-          w.onload = loader;
-        }
-      })(window, document);
-    </script>
   </body>
 </html>
