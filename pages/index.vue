@@ -388,7 +388,7 @@
           <p>Nos réseaux sociaux :</p>
           <ul>
             <li>
-              <a href="#" target="_blank" title="Facebook Social Media">
+              <a href="http://www.bitly.fr/e6h" target="_blank" title="Facebook Social Media">
                 <svg width="28" height="28" viewBox="0 0 71 71" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M53.6455 69.5346H17.8207C8.78656 69.5346 1.46582 62.2138 1.46582 53.1797V20.47C1.46582 9.72258 10.1884 1 20.9359 1H53.6455C62.6796 1 70.0004 8.32074 70.0004 17.3548V53.1797C70.0004 62.2138 62.6796 69.5346 53.6455 69.5346Z" fill="#FFD02B" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
                   <path d="M51.3867 35.501H38.5365V27.9466H50.9194V17.3549C50.9194 17.3549 42.1189 17.1991 38.5365 17.3549C34.954 17.5106 28.412 17.9779 28.412 31.5291C28.412 32.6973 28.412 34.0212 28.412 35.501H21.2471V45.859H28.412C28.412 57.1516 28.412 69.5346 28.412 69.5346H38.5365V45.859H51.3867V35.501Z" fill="#FFD02B" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
@@ -396,7 +396,7 @@
               </a>
             </li>
             <li>
-              <a href="https://www.instagram.com/makeitwinkle/" title="Instagram Social Media" target="_blank">
+              <a href="http://www.bitly.fr/e6j" title="Instagram Social Media" target="_blank">
                 <svg width="28" height="28" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M53.1797 69.5346H17.3548C8.32074 69.5346 1 62.2138 1 53.1797V20.47C1 9.72258 9.72258 1 20.47 1H53.1797C62.2138 1 69.5346 8.32074 69.5346 17.3548V53.1797C69.5346 62.2138 62.2138 69.5346 53.1797 69.5346Z" fill="#FFD02B" stroke="#FFD02B" stroke-width="0.75" stroke-miterlimit="10"/>
                   <path d="M35.8124 47.5724C43.2105 47.5724 49.2078 41.5751 49.2078 34.177C49.2078 26.7789 43.2105 20.7816 35.8124 20.7816C28.4143 20.7816 22.417 26.7789 22.417 34.177C22.417 41.5751 28.4143 47.5724 35.8124 47.5724Z" fill="#FFD02B" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
