@@ -32,19 +32,19 @@
       <p>
         Figurent parmi les types de Données personnelles que cette Application collecte directement ou en recourant à des tiers : Cookies; Données d'utilisation; adresse électronique.
         <br>
-        Les détails complets sur chaque type de Données personnelles collectées sont fournis dans les parties consacrées à la présente politique de confidentialité ou par des textes d’explication spécifiques publiés avant la collecte des Données.
-        Les Données personnelles peuvent être librement fournies par l’Utilisateur, ou, en cas de Données d’utilisation, collectées automatiquement lorsque vous utilisez cette Application.
-        Sauf indication contraire, toutes les Données demandées par cette Application sont obligatoires et leur absence peut rendre impossible la fourniture des Services par cette Application. Dans le cas où cette Application précise que certaines Données ne sont pas obligatoires, les Utilisateurs sont libres de ne pas les communiquer sans entraîner de conséquences sur la disponibilité ou le fonctionnement du Service.
-        Les Utilisateurs qui auraient des doutes sur les Données personnelles obligatoires sont invités à contacter le Propriétaire.
-        Toute utilisation des Cookies – ou d’autres outils de suivi – par cette Application ou par les propriétaires de services tiers utilisés par cette Application vise à fournir le Service demandé par l’Utilisateur, outre les autres finalités décrites dans le présent document et dans la Politique relative aux cookies, si elle est disponible.
-
-        Les Utilisateurs sont responsables de toute Donnée personnelle de tiers obtenue, publiée ou communiquée par l’intermédiaire de cette Application et confirment qu’ils obtiennent le consentement du tiers pour fournir les Données au Propriétaire.
+        Les détails complets sur chaque type de Données personnelles collectées sont fournis dans les parties consacrées à la présente politique de confidentialité ou par des textes d’explication spécifiques publiés avant la collecte des Données.<br>
+        Les Données personnelles peuvent être librement fournies par l’Utilisateur, ou, en cas de Données d’utilisation, collectées automatiquement lorsque vous utilisez cette Application.<br>
+        Sauf indication contraire, toutes les Données demandées par cette Application sont obligatoires et leur absence peut rendre impossible la fourniture des Services par cette Application. Dans le cas où cette Application précise que certaines Données ne sont pas obligatoires, les Utilisateurs sont libres de ne pas les communiquer sans entraîner de conséquences sur la disponibilité ou le fonctionnement du Service.<br>
+        Les Utilisateurs qui auraient des doutes sur les Données personnelles obligatoires sont invités à contacter le Propriétaire.<br>
+        Toute utilisation des Cookies – ou d’autres outils de suivi – par cette Application ou par les propriétaires de services tiers utilisés par cette Application vise à fournir le Service demandé par l’Utilisateur, outre les autres finalités décrites dans le présent document et dans la Politique relative aux cookies, si elle est disponible.<br>
+<br>
+        Les Utilisateurs sont responsables de toute Donnée personnelle de tiers obtenue, publiée ou communiquée par l’intermédiaire de cette Application et confirment qu’ils obtiennent le consentement du tiers pour fournir les Données au Propriétaire.<br>
       </p>
       <h3>Mode et lieu de traitement des Données</h3>
       <h4>Méthodes de traitement</h4>
       <p>
-        Le Propriétaire prend les mesures de sécurité appropriées afin d’empêcher l’accès, la divulgation, la modification ou la destruction non autorisés des Données.
-        Le traitement des Données est effectué à l’aide d’ordinateurs ou d’outils informatiques, en suivant les procédures et les modes organisationnels étroitement liés aux finalités indiquées. Outre le Propriétaire, les Données peuvent être accessibles, dans certains cas, à certaines catégories de personnes en charge du fonctionnement de cette Application (administration, ventes, marketing, service juridique, administration du système) ou à des parties externes (telles que les fournisseurs tiers de services techniques, les services de messagerie, les fournisseurs d’hébergement, les entreprises informatiques, les agences de communication) désignées, le cas échéant, comme Sous-traitantes par le Propriétaire. La liste mise à jour de ces parties peut être demandée à tout moment au Propriétaire.
+        Le Propriétaire prend les mesures de sécurité appropriées afin d’empêcher l’accès, la divulgation, la modification ou la destruction non autorisés des Données.<br>
+        Le traitement des Données est effectué à l’aide d’ordinateurs ou d’outils informatiques, en suivant les procédures et les modes organisationnels étroitement liés aux finalités indiquées. Outre le Propriétaire, les Données peuvent être accessibles, dans certains cas, à certaines catégories de personnes en charge du fonctionnement de cette Application (administration, ventes, marketing, service juridique, administration du système) ou à des parties externes (telles que les fournisseurs tiers de services techniques, les services de messagerie, les fournisseurs d’hébergement, les entreprises informatiques, les agences de communication) désignées, le cas échéant, comme Sous-traitantes par le Propriétaire. La liste mise à jour de ces parties peut être demandée à tout moment au Propriétaire.<br>
       </p>
         <h3>Base juridique du traitement</h3>
         <p>
@@ -72,9 +72,9 @@
         <br>
         Par conséquent :
         <br>
-        Les Données personnelles collectées à des fins liées à l'exécution d'un contrat entre le Propriétaire et l'Utilisateur doivent être conservées jusqu'à la pleine exécution du contrat.
-        Les Données personnelles collectées aux fins des intérêts légitimes du Propriétaire doivent être conservées aussi longtemps que nécessaire pour atteindre ces objectifs. Les Utilisateurs peuvent trouver des informations spécifiques concernant les intérêts légitimes poursuivis par le Propriétaire dans les sections correspondantes du présent document ou en contactant le Propriétaire.
-        Le Propriétaire peut être autorisé à conserver des Données personnelles plus longtemps chaque fois que l’Utilisateur a donné son consentement à un tel traitement, tant que ce consentement n’est pas retiré. En outre, le Propriétaire peut être obligé de conserver des Données personnelles plus longtemps chaque fois que cela est requis pour l'exécution d'une obligation légale ou sur ordre d'une autorité.
+        Les Données personnelles collectées à des fins liées à l'exécution d'un contrat entre le Propriétaire et l'Utilisateur doivent être conservées jusqu'à la pleine exécution du contrat.<br>
+        Les Données personnelles collectées aux fins des intérêts légitimes du Propriétaire doivent être conservées aussi longtemps que nécessaire pour atteindre ces objectifs. Les Utilisateurs peuvent trouver des informations spécifiques concernant les intérêts légitimes poursuivis par le Propriétaire dans les sections correspondantes du présent document ou en contactant le Propriétaire.<br>
+        Le Propriétaire peut être autorisé à conserver des Données personnelles plus longtemps chaque fois que l’Utilisateur a donné son consentement à un tel traitement, tant que ce consentement n’est pas retiré. En outre, le Propriétaire peut être obligé de conserver des Données personnelles plus longtemps chaque fois que cela est requis pour l'exécution d'une obligation légale ou sur ordre d'une autorité.<br>
         <br>
         Une fois la période de conservation expirée, les Données personnelles seront supprimées. Par conséquent, le droit d'accès, le droit d'effacement, le droit de rectification et le droit à la portabilité des données ne peuvent être appliqués après l'expiration de la période de conservation.
         </p>
@@ -89,30 +89,34 @@
         <br>
         <h3>Analyses :</h3>
         Les services que contient cette partie permettent au Propriétaire de surveiller et d’analyser le trafic Web et de suivre l’évolution du comportement de l’Utilisateur.
-
-        Google Analytics (Google LLC)
-        Google Analytics est un service d’analyse Web fourni par Google LLC (« Google »). Google utilise les Données collectées pour suivre et analyser l’utilisation de cette Application, préparer des rapports sur ses activités et les partager avec d’autres services Google. Google peut utiliser les Données collectées pour contextualiser et personnaliser les publicités de son propre réseau publicitaire.
-        Données personnelles collectées : Cookies; Données d'utilisation.
-
+        <br>
+        <h4>
+        Google Analytics (Google LLC)</h4>
+        Google Analytics est un service d’analyse Web fourni par Google LLC (« Google »). Google utilise les Données collectées pour suivre et analyser l’utilisation de cette Application, préparer des rapports sur ses activités et les partager avec d’autres services Google. Google peut utiliser les Données collectées pour contextualiser et personnaliser les publicités de son propre réseau publicitaire.<br>
+        Données personnelles collectées : Cookies; Données d'utilisation.<br>
+        <br>
         <h4>Carte de chaleur et enregistrement de sessions</h4>
         <p>Les services de cartes de chaleur sont utilisés pour afficher les endroits d'une page où les Utilisateurs bougent la souris ou cliquent le plus souvent. Ainsi les points d'intérêt sont localisés. Les services permettent de surveiller et d'analyser le trafic Web et de suivre l'évolution du comportement de l'Utilisateur.
         Certains de ces services peuvent enregistrer les sessions et les rendre disponibles pour une lecture visuelle ultérieure.
 
-        Hotjar Heat Maps & Recordings (Hotjar Ltd.)
+        <h4>Hotjar Heat Maps & Recordings (Hotjar Ltd.)</h4>
+        <p>
         Hotjar est un service d'enregistrement de sessions et d'établissement de cartes de chaleur offert par Hotjar Ltd.
         Hotjar respecte les en-têtes « Ne pas me pister » (Do Not Track en anglais). Cela signifie que votre navigateur peut indiquer à son script de ne collecter aucune des données de l’Utilisateur. Il s'agit d'un paramètre disponible sur l'ensemble des principaux navigateurs. Vous trouverez plus d'information sur l'engagement de Hotjar ici.
         Données personnelles collectées : Cookies; différents types de Données indiquées dans la politique de confidentialité du service; Données d'utilisation.</p>
         <h4>Gestion des balises</h4>
         <p>Ce type de service permet au Propriétaire de gérer les balises ou les scripts nécessaires sur cette Application de manière centralisée.
         Par conséquent, les Données utilisateurs transitent par ces services, ce qui pourrait entraîner la conservation de ces Données.
-
-        Google Tag Manager (Google LLC)
+        </p>
+        <h4>Google Tag Manager (Google LLC)</h4>
+        <p>
         Google Tag Manager est un service de gestion de balises fourni par Google LLC.
         Données personnelles collectées : Cookies; Données d'utilisation.</p>
         <h4>Gestion des contacts et envoi de messages</h4>
         <p>Ce type de services permet de gérer une base de données d’adresses électroniques, de numéros de téléphone ou de toutes autres coordonnées pour communiquer avec l’Utilisateur. Ces services peuvent aussi collecter des données concernant la date et l’heure auxquelles l’Utilisateur visionne le message, l’heure à laquelle il interagit avec ce message, par exemple en cliquant sur les liens inclus dans celui-ci.
 
-        Mailchimp (The Rocket Science Group LLC)
+        <h4>Mailchimp (The Rocket Science Group LLC)</h4>
+        <p>
         Mailchimp est un service de gestion d’adresses électroniques et d’envoi de messages fourni par The Rocket Science Group LLC.
         Données personnelles collectées : adresse électronique.
 
@@ -124,30 +128,30 @@
 
         <h3>En particulier, les Utilisateurs ont le droit de faire ce qui suit </h3>
 
-        Retirer leur consentement à tout moment. Les Utilisateurs ont le droit de retirer leur consentement s'ils ont déjà donné leur consentement au traitement de leurs Données personnelles.
-        S'opposer au traitement de leurs Données. Les Utilisateurs ont le droit de s'opposer au traitement de leurs Données si le traitement est effectué sur une base juridique autre que le consentement. Des précisions sont ajoutées dans la section correspondante ci-dessous.
-        Accéder à leurs Données. Les Utilisateurs ont le droit de savoir si les Données sont traitées par le Propriétaire, d'obtenir des informations sur certains aspects du traitement et d'obtenir une copie des Données en cours de traitement.
-        Vérifier et obtenir une rectification. Les Utilisateurs ont le droit de vérifier l'exactitude de leurs Données et de demander qu'elles soient mises à jour ou corrigées.
-        Limiter le traitement de leurs Données. Les Utilisateurs ont le droit, sous certaines conditions, de limiter le traitement de leurs Données. Dans ce cas, le Propriétaire traitera leurs Données uniquement pour les stocker.
-        Faire supprimer ou effacer leurs Données personnelles. Les Utilisateurs ont le droit, sous certaines conditions, d'obtenir l'effacement de leurs Données auprès du Propriétaire.
-        Récupérer leurs Données et les transférer à un autre responsable du traitement. Les Utilisateurs ont le droit de récupérer leurs Données dans un format structuré, couramment utilisé et lisible par machine et, si cela est techniquement possible, de les transmettre à un autre responsable du traitement sans obstacle d'aucune sorte. Cette disposition s’applique, sous réserve que les Données soient traitées par des moyens automatisés et que le traitement repose sur le consentement de l'Utilisateur, sur un contrat auquel l'Utilisateur est partie ou sur des obligations précontractuelles.
-        Déposer plainte. Les Utilisateurs ont le droit de déposer une plainte auprès de leur autorité compétente en matière de protection des données.
-        Informations concernant le droit d'opposition au traitement
-        Lorsque les Données personnelles sont traitées dans l'intérêt public, dans l'exercice d'une autorité officielle dévolue au Propriétaire ou aux fins des intérêts légitimes poursuivis par celui-ci, les Utilisateurs peuvent s'opposer à ce traitement en fournissant un motif lié à leur situation particulière devant justifier cette opposition.
-
+        Retirer leur consentement à tout moment. Les Utilisateurs ont le droit de retirer leur consentement s'ils ont déjà donné leur consentement au traitement de leurs Données personnelles. <br>
+        S'opposer au traitement de leurs Données. Les Utilisateurs ont le droit de s'opposer au traitement de leurs Données si le traitement est effectué sur une base juridique autre que le consentement. Des précisions sont ajoutées dans la section correspondante ci-dessous.<br>
+        Accéder à leurs Données. Les Utilisateurs ont le droit de savoir si les Données sont traitées par le Propriétaire, d'obtenir des informations sur certains aspects du traitement et d'obtenir une copie des Données en cours de traitement.<br>
+        Vérifier et obtenir une rectification. Les Utilisateurs ont le droit de vérifier l'exactitude de leurs Données et de demander qu'elles soient mises à jour ou corrigées.<br>
+        Limiter le traitement de leurs Données. Les Utilisateurs ont le droit, sous certaines conditions, de limiter le traitement de leurs Données. Dans ce cas, le Propriétaire traitera leurs Données uniquement pour les stocker.<br>
+        Faire supprimer ou effacer leurs Données personnelles. Les Utilisateurs ont le droit, sous certaines conditions, d'obtenir l'effacement de leurs Données auprès du Propriétaire.<br>
+        Récupérer leurs Données et les transférer à un autre responsable du traitement. Les Utilisateurs ont le droit de récupérer leurs Données dans un format structuré, couramment utilisé et lisible par machine et, si cela est techniquement possible, de les transmettre à un autre responsable du traitement sans obstacle d'aucune sorte. Cette disposition s’applique, sous réserve que les Données soient traitées par des moyens automatisés et que le traitement repose sur le consentement de l'Utilisateur, sur un contrat auquel l'Utilisateur est partie ou sur des obligations précontractuelles.<br>
+        Déposer plainte. Les Utilisateurs ont le droit de déposer une plainte auprès de leur autorité compétente en matière de protection des données.<br>
+        Informations concernant le droit d'opposition au traitement<br>
+        Lorsque les Données personnelles sont traitées dans l'intérêt public, dans l'exercice d'une autorité officielle dévolue au Propriétaire ou aux fins des intérêts légitimes poursuivis par celui-ci, les Utilisateurs peuvent s'opposer à ce traitement en fournissant un motif lié à leur situation particulière devant justifier cette opposition.<br>
+<br>
         Les Utilisateurs doivent cependant savoir que si leurs Données personnelles sont traitées à des fins de marketing direct, ils peuvent s'opposer à ce traitement à tout moment sans aucune justification. Pour savoir si le Propriétaire traite des Données personnelles à des fins de marketing direct, les Utilisateurs peuvent se reporter aux sections correspondantes du présent document.
 
         <h3>Comment exercer ces droits</h3>
         Toute demande d'exercice des droits de l'Utilisateur peut être adressée au Propriétaire grâce aux coordonnées fournies dans le présent document. Ces demandes peuvent être exercées gratuitement et seront étudiées par le Propriétaire le plus tôt possible et toujours dans un délai d'un mois.
-
+<br>
         <h3>Informations supplémentaires sur le traitement et la collecte des Données</h3>
-        Action en justice
+        Action en justice<br>
         Les Données personnelles de l’Utilisateur peuvent être utilisées à des fins juridiques par le Propriétaire devant les tribunaux ou dans les étapes pouvant conduire à une action en justice résultant d’une utilisation inappropriée de cette Application ou des Services connexes.
-        L’Utilisateur est conscient du fait que le Propriétaire peut être amené à révéler des Données personnelles à la demande des autorités publiques.
-
-        Informations supplémentaires concernant les Données personnelles de l’Utilisateur
+        L’Utilisateur est conscient du fait que le Propriétaire peut être amené à révéler des Données personnelles à la demande des autorités publiques.<br>
+<br>
+        Informations supplémentaires concernant les Données personnelles de l’Utilisateur<br>
         Outre les informations contenues dans la présente politique de confidentialité, cette Application peut fournir à l’Utilisateur des renseignements complémentaires et des informations contextuelles concernant des services particuliers ou la collecte et le traitement des Données personnelles.
-
+<br>
         <h3>Journaux système et maintenance</h3>
         À des fins d'exploitation et de maintenance, cette Application et tout service tiers peuvent collecter des fichiers qui enregistrent les interactions avec cette Application (journaux système) ou utiliser à cette fin d'autres Données personnelles (telles que l'adresse IP).
 
