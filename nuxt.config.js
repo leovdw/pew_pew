@@ -14,7 +14,7 @@ export default {
       {
         'property': 'og:title',
         'content': 'Winkle',
-        'template': `Home - Winkle, agence de mentoring pour Célibattante `
+        'template': `Winkle - Agence d'accompagnement pour célibattantes`
       },
       {
         'property': 'og:locale',
@@ -30,7 +30,7 @@ export default {
       },
       {
         'property': 'og:description',
-        'content': 'Winkle, agence de mentoring pour Célibattante, Une aide pour te rebâtir une confiance dans la vie et les relations.'
+        'content': `Winkle, c'est la première agence qui met les célibattantes au coeur de leurs actions. Accompagnement, activités, entraide, et surtout bienveillance`
       },
       {
         'property': 'og:url',
@@ -46,11 +46,11 @@ export default {
       },
       {
         'name': 'twitter:description',
-        'content': 'Winkle, agence de mentoring pour Célibattante, Une aide pour te rebâtir une confiance dans la vie et les relations.'
+        'content': `Winkle, c'est la première agence qui met les célibattantes au coeur de leurs actions. Accompagnement, activités, entraide, et surtout bienveillance`
       },
       {
         'name': 'twitter:title',
-        'content': 'Home - Winkle, agence de mentoring pour Célibattante'
+        'content': `Winkle - Agence d'accompagnement pour célibattantes`
       },
     ],
     link: [

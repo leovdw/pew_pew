@@ -409,7 +409,7 @@
         <h4>©2019 - Winkle  |  Tous droits réservés</h4>
       </div>
       <div class="footer--legal">
-        <nuxt-link to="/conf">Politique de confidentialité</nuxt-link>
+        <a href="https://www.iubenda.com/privacy-policy/33582458" class="iubenda-white iubenda-embed" title="Privacy Policy ">Privacy Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
         <a href="#">Mentions légales</a>
         <!-- <nuxt-link to="/leg"></nuxt-link> -->
       </div>
