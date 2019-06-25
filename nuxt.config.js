@@ -55,7 +55,7 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href:'https://fonts.googleapis.com/css?family=PT+Serif:400,700&display=swap'},
+      { rel: 'stylesheet', href:'https://fonts.googleapis.com/css?family=Playfair+Display|Ubuntu&display=swap'},
       {
         rel: "icon",
         type: "image/png",

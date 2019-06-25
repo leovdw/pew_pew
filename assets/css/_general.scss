@@ -1,9 +1,12 @@
-$main-font        : 'PT Serif', serif;
+$main-font        : 'Ubuntu', sans-serif;
+$secondary-font   : 'Playfair Display', serif;
 
-$yellow           : #FFD02B;
+$yellow           : #ffd000;
 $black            : #3C241C;
+$red              : #F53842;
 $blue             : #178DF9;
 $grey             : #505D68;
+$brown            : #3D241C;
 
 $main-color       : $black;
 $secondary-color  : black;
@@ -13,6 +16,8 @@ $medium       : 850px;
 $large        : 1250px;
 $xlarge       : 1550px;
 $small        : 500px;
+
+
 
 // Breakpoint mixin
 @mixin breakpoint($breakpoint , $operator) {
