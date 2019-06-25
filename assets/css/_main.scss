@@ -68,8 +68,8 @@
         max-width: 100%;
         font-style: normal;
         font-weight: bold;
-        font-size: 18px;
-        line-height: 22px;
+        font-size: 40px;
+        line-height: 45px;
         padding-top: 0;
         padding-top: 180px;
       }
@@ -98,7 +98,7 @@
     &--btns{
       display: flex;
       position: relative;
-      z-index: 99999;
+      z-index: 9;
 
       @include breakpoint($medium, down){
         padding-bottom: 40px;
@@ -115,6 +115,12 @@
         align-items: center;
         transition: .6s ease all;
         border: 1px solid transparent;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: 1px;
+        text-transform: uppercase;
 
         @include breakpoint($medium, down){
            display: none;
@@ -203,16 +209,26 @@
 
       h2{
         position: relative;
-        font-size: 24px;
-        line-height: 124.5%;
-        margin-top: 80px;
+        margin-top: 60px;
         transform: translateY(0);
         padding: 30px 0;
         text-align: center;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        font-family: Ubuntu;
 
         &:last-child{
           text-align: center;
           border: 0;
+          font-family: Ubuntu;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 13px;
+          line-height: 124.5%;
+          width: 150px;
+          height: 150px;
+          transform: translateY(20px) translateX(20px);
         }
       }
     }
@@ -339,6 +355,11 @@
       &.svg_show{
         opacity: 1;
         transition: .4s ease opacity;
+      }
+
+      @include breakpoint($small, down){
+        opacity: 1;
+        top: -20px;
       }
     }
 
@@ -565,6 +586,11 @@
           margin-top: 10px;
           font-family: $secondary-font;
           color: $yellow;
+          font-family: Playfair Display;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 24px;
+          line-height: 31px;
 
           @include breakpoint($medium, down){
             text-align: center;
@@ -762,6 +788,11 @@
             border-radius: 3px;
             margin-right: 0;
           }
+
+          @include breakpoint($small, down){
+            padding: 10px 20px;
+            height: 43px;
+          }
         }
         button{
           -webkit-appearance: meter;
@@ -774,6 +805,10 @@
           @include breakpoint($medium, down){
             border-radius: 3px;
             margin: 0 auto;
+          }
+
+          @include breakpoint($small, down){
+           padding: 8.6px 13px
           }
         }
       }
