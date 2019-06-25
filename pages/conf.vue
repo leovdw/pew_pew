@@ -208,7 +208,6 @@
       </div>
       <div class="footer--legal">
         <nuxt-link to="/conf">Politique de confidentialité</nuxt-link>
-        <nuxt-link to="/leg">Mentions légales</nuxt-link>
       </div>
     </footer>
   </div>
@@ -231,10 +230,9 @@ export default {
 </script>
 <style media="screen">
 .conf{
-    max-width: 90%;
-    margin: 0 auto;
-    height: 61vh;
+    height: calc(100vh - (61px + 120px));
     overflow-y: scroll;
+    padding: 0 5%;
   }
   .conf h1{
     text-align: center;
