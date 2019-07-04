@@ -183,7 +183,7 @@
     padding-bottom: 80px;
     height: 100vh;
     max-width: 80%;
-    padding-left: 65px;
+    // padding-left: 65px;
     // border-left: 5px solid #FFD02B;
     margin: 0 auto;
     align-items: center;
@@ -252,6 +252,10 @@
       text-align: center;
       width: 100%;
 
+      svg{
+        margin-bottom: 25px;
+      }
+
       &.special{
         background-color: $red;
         color: white;
@@ -269,8 +273,8 @@
         }
 
         @include breakpoint($xlarge, down){
-          width: 270px;
-          height: 270px;
+          width: 400px;
+          height: 400px;
         }
       }
 
@@ -312,17 +316,17 @@
     display: flex;
     justify-content: space-between;
     background-color: $yellow;
-    color: white;
+    color: $brown;
     position: relative;
     align-items: center;
     flex-wrap: wrap;
     margin-bottom: 500px;
 
     @include breakpoint($xxlarge, down){
-      margin-bottom: 400px;
+      margin-bottom: 450px;
     }
     @include breakpoint($xlarge, down){
-      margin-bottom: 250px;
+      margin-bottom: 400px;
     }
 
     & > svg{
@@ -444,7 +448,7 @@
 
         &:last-child{
           font-style: initial;
-          color: white;
+          color: $brown;
           font-weight: bold;
           font-size: 20px;
           line-height: 22px;
@@ -719,6 +723,7 @@
     padding-right: calc((100% - 1400px)/ 2);
     color: white;
     background-size: 100%, cover !important;
+    min-height: 55vh;
 
     @include breakpoint($xlarge, down){
       padding-left: 5%;

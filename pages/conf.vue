@@ -2,16 +2,26 @@
   <div>
     <div class="main-menu">
       <h1 style="display: none;">Winkle</h1>
-      <svg width="124" height="25" viewBox="0 0 124 25" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-        <rect width="124" height="25" fill="url(#pattern0)"/>
+      <svg width="132" height="32" viewBox="0 0 132 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g clip-path="url(#clip0)">
+        <path d="M26.3044 24.1075C24.0061 28.4915 19.5138 31.2932 13.6542 31.9978L13.6396 31.9999L13.625 31.9978C8.06187 31.0674 4.13114 28.7025 1.94137 24.9683C-1.42992 19.2193 0.607463 12.6413 0.630426 12.578C1.07297 11.2974 3.64266 4.95562 10.7338 5.78052C11.0741 5.8206 11.3517 6.06322 11.4373 6.39866C11.5229 6.73832 11.4018 7.07377 11.12 7.2763C8.59627 9.08854 4.81374 13.4113 7.84477 22.0041C7.86147 22.0527 8.02012 22.4641 8.55034 22.3101C8.80919 22.2362 8.95531 22.0801 8.98871 21.8459C9.00124 21.7552 8.98663 21.656 8.95114 21.559C8.61297 20.6666 5.82617 12.7172 11.7024 8.37334C14.8483 6.04845 17.8981 6.12651 19.9 6.6033C23.1398 7.37124 25.5654 9.57799 26.4484 11.3037C28.4503 15.2151 28.3961 20.1202 26.3044 24.1075Z" fill="white"/>
+        <path d="M27.87 2.6771C27.1457 4.02309 25.9078 5.79313 24.1209 6.58638C23.9769 6.64967 23.8245 6.68132 23.6721 6.68132C23.4968 6.68132 23.3235 6.64124 23.1607 6.55896C21.9833 5.96402 18.9001 4.66233 15.7251 5.4155C15.7146 5.41761 15.7063 5.41761 15.6958 5.41761C15.6562 5.41761 15.6186 5.40073 15.5936 5.36908C15.5518 5.31001 15.5497 5.22562 15.6833 4.99989C15.7125 4.94925 18.9231 -0.10138 27.0246 0.991447C27.3941 1.03997 27.7156 1.27204 27.8847 1.60959C28.0537 1.94503 28.0496 2.34588 27.87 2.6771Z" fill="white"/>
+        <path d="M12.7107 5.97255C12.7107 5.97255 13.8296 3.01896 12.5855 1.38394C11.3413 -0.251082 12.9591 -0.187791 13.2702 0.314319C13.5812 0.816428 14.9506 4.52529 14.3285 5.46833L12.7107 5.97255Z" fill="white"/>
+        <path d="M52.3128 13.2636C51.4506 16.0421 50.5781 18.6138 49.6971 20.9767C48.8141 23.3417 47.9332 25.6434 47.0502 27.8818H44.0651C42.9775 24.7088 42.0173 21.3607 41.1865 17.8353C40.3557 14.31 39.5812 10.4746 38.8631 6.3269H42.0027C42.2908 7.94505 42.5872 9.56108 42.8961 11.1792C43.203 12.7974 43.5224 14.367 43.8501 15.8923C44.1778 17.4155 44.5056 18.8733 44.8354 20.2615C45.1631 21.6518 45.5013 22.9366 45.852 24.118C46.6724 21.9408 47.5449 19.5505 48.4676 16.9493C49.3903 14.348 50.2524 11.656 51.0519 8.87754H53.6362C54.4357 11.656 55.3083 14.348 56.2519 16.9493C57.1954 19.5526 58.0784 21.9408 58.8988 24.118C59.2265 22.9577 59.5543 21.6813 59.8841 20.2932C60.2118 18.905 60.5354 17.4472 60.8527 15.9218C61.17 14.3986 61.4831 12.8227 61.792 11.194C62.0989 9.5653 62.3974 7.94294 62.6855 6.3269H65.7332C64.9942 10.4746 64.2093 14.31 63.3785 17.8353C62.5477 21.3607 61.5979 24.7088 60.5312 27.8818H57.5461C56.6422 25.6413 55.7613 23.3396 54.8992 20.9767C54.037 18.6138 53.1749 16.0421 52.3128 13.2636Z" fill="white"/>
+        <path d="M70.4718 8.7847C69.9582 8.7847 69.5219 8.61382 69.1629 8.27205C68.8039 7.93027 68.6243 7.46825 68.6243 6.88808C68.6243 6.30791 68.8039 5.84589 69.1629 5.50411C69.5219 5.16234 69.9582 4.99146 70.4718 4.99146C70.9853 4.99146 71.4195 5.16234 71.7806 5.50411C72.1397 5.84589 72.3192 6.30791 72.3192 6.88808C72.3192 7.46825 72.1397 7.93027 71.7806 8.27205C71.4195 8.61171 70.9832 8.7847 70.4718 8.7847ZM71.9184 27.8817H69.0564V11.7088H71.9184V27.8817Z" fill="white"/>
+        <path d="M76.8428 12.1749C77.4982 12.0082 78.3708 11.8331 79.4584 11.6453C80.546 11.4597 81.7985 11.3647 83.2138 11.3647C84.4851 11.3647 85.5413 11.5462 86.3847 11.9091C87.2259 12.2719 87.8981 12.7804 88.4012 13.4323C88.9043 14.0863 89.257 14.869 89.4637 15.7804C89.6683 16.6939 89.7706 17.6981 89.7706 18.7972V27.8795H86.9086V19.4196C86.9086 18.4238 86.8418 17.5736 86.7082 16.869C86.5746 16.1643 86.3534 15.5926 86.0465 15.158C85.7396 14.7234 85.3284 14.4069 84.8149 14.2086C84.3014 14.0124 83.6647 13.9133 82.9069 13.9133C82.6001 13.9133 82.2807 13.9238 81.9529 13.9449C81.6252 13.966 81.3121 13.9913 81.0136 14.023C80.7151 14.0546 80.4499 14.0905 80.2141 14.1327C79.9782 14.1749 79.8091 14.2065 79.7068 14.2255V27.8816H76.8449V12.1749H76.8428Z" fill="white"/>
+        <path d="M100.294 18.9872C100.909 19.464 101.561 20.0548 102.247 20.7594C102.934 21.464 103.613 22.2277 104.279 23.0463C104.945 23.8649 105.577 24.694 106.172 25.5358C106.767 26.3754 107.27 27.1581 107.679 27.8839H104.327C103.897 27.1581 103.398 26.4176 102.834 25.6602C102.27 24.9029 101.68 24.1771 101.064 23.483C100.448 22.7889 99.8218 22.1518 99.1872 21.5695C98.5505 20.9894 97.9452 20.502 97.3711 20.1075V27.8839H94.5092V4.24252L97.3711 3.74463V18.4894C97.8637 17.9915 98.4065 17.4429 99.0014 16.8417C99.5964 16.2404 100.181 15.6286 100.755 15.0062C101.329 14.3839 101.874 13.7889 102.385 13.2172C102.899 12.6476 103.339 12.1434 103.709 11.7088H107.063C106.592 12.2278 106.078 12.7974 105.525 13.4197C104.972 14.0421 104.396 14.6687 103.801 15.3016C103.206 15.9345 102.604 16.5674 101.999 17.1982C101.396 17.8311 100.828 18.4261 100.294 18.9872Z" fill="white"/>
+        <path d="M115.376 28.194C113.612 28.1518 112.359 27.7699 111.62 27.0421C110.881 26.3164 110.512 25.1856 110.512 23.6518V4.24252L113.374 3.74463V23.1856C113.374 23.6624 113.416 24.0569 113.497 24.367C113.578 24.6771 113.712 24.9261 113.898 25.1138C114.081 25.2995 114.328 25.4408 114.637 25.5337C114.944 25.6265 115.324 25.7045 115.774 25.7678L115.376 28.194Z" fill="white"/>
+        <path d="M118.083 19.8268C118.083 18.3965 118.288 17.1475 118.699 16.0779C119.108 15.0104 119.653 14.1243 120.329 13.4175C121.006 12.7129 121.786 12.1834 122.669 11.8311C123.552 11.4787 124.454 11.3015 125.377 11.3015C127.531 11.3015 129.182 11.9808 130.332 13.3395C131.481 14.6981 132.057 16.7657 132.057 19.5441C132.057 19.6686 132.057 19.8289 132.057 20.0273C132.057 20.2256 132.046 20.4049 132.025 20.5716H121.068C121.191 22.2509 121.674 23.5273 122.515 24.3965C123.356 25.2678 124.669 25.7024 126.454 25.7024C127.458 25.7024 128.306 25.6138 128.992 25.4386C129.679 25.2635 130.197 25.0905 130.547 24.926L130.948 27.3521C130.6 27.5378 129.988 27.7361 129.118 27.9429C128.245 28.1496 127.256 28.253 126.147 28.253C124.751 28.253 123.546 28.0399 122.532 27.6159C121.515 27.1918 120.68 26.6053 120.022 25.8585C119.365 25.1116 118.878 24.2256 118.561 23.1981C118.242 22.1749 118.083 21.0505 118.083 19.8268ZM129.07 18.2403C129.09 16.9344 128.767 15.8606 128.101 15.0209C127.433 14.1813 126.517 13.7614 125.345 13.7614C124.688 13.7614 124.11 13.8901 123.607 14.1496C123.104 14.4091 122.678 14.7467 122.329 15.1602C121.98 15.5758 121.709 16.0526 121.513 16.5905C121.317 17.1306 121.189 17.6792 121.129 18.2382H129.07V18.2403Z" fill="white"/>
+        </g>
         <defs>
-        <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-        <use xlink:href="#image0" transform="translate(0 -0.00165242) scale(0.002849 0.0141311)"/>
-        </pattern>
-        <image id="image0" width="351" height="71" xlink:href="data:image/png;base64,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"/>
+        <clipPath id="clip0">
+        <rect width="132" height="32" fill="white"/>
+        </clipPath>
         </defs>
       </svg>
     </div>
+
     <div class="conf">
       <a href="#" @click="back()">  Retour</a>
 
@@ -37,7 +47,7 @@
         Sauf indication contraire, toutes les Données demandées par cette Application sont obligatoires et leur absence peut rendre impossible la fourniture des Services par cette Application. Dans le cas où cette Application précise que certaines Données ne sont pas obligatoires, les Utilisateurs sont libres de ne pas les communiquer sans entraîner de conséquences sur la disponibilité ou le fonctionnement du Service.<br>
         Les Utilisateurs qui auraient des doutes sur les Données personnelles obligatoires sont invités à contacter le Propriétaire.<br>
         Toute utilisation des Cookies – ou d’autres outils de suivi – par cette Application ou par les propriétaires de services tiers utilisés par cette Application vise à fournir le Service demandé par l’Utilisateur, outre les autres finalités décrites dans le présent document et dans la Politique relative aux cookies, si elle est disponible.<br>
-<br>
+        <br>
         Les Utilisateurs sont responsables de toute Donnée personnelle de tiers obtenue, publiée ou communiquée par l’intermédiaire de cette Application et confirment qu’ils obtiennent le consentement du tiers pour fournir les Données au Propriétaire.<br>
       </p>
       <h3>Mode et lieu de traitement des Données</h3>
@@ -138,78 +148,101 @@
         Déposer plainte. Les Utilisateurs ont le droit de déposer une plainte auprès de leur autorité compétente en matière de protection des données.<br>
         Informations concernant le droit d'opposition au traitement<br>
         Lorsque les Données personnelles sont traitées dans l'intérêt public, dans l'exercice d'une autorité officielle dévolue au Propriétaire ou aux fins des intérêts légitimes poursuivis par celui-ci, les Utilisateurs peuvent s'opposer à ce traitement en fournissant un motif lié à leur situation particulière devant justifier cette opposition.<br>
-<br>
+        <br>
         Les Utilisateurs doivent cependant savoir que si leurs Données personnelles sont traitées à des fins de marketing direct, ils peuvent s'opposer à ce traitement à tout moment sans aucune justification. Pour savoir si le Propriétaire traite des Données personnelles à des fins de marketing direct, les Utilisateurs peuvent se reporter aux sections correspondantes du présent document.
 
         <h3>Comment exercer ces droits</h3>
         Toute demande d'exercice des droits de l'Utilisateur peut être adressée au Propriétaire grâce aux coordonnées fournies dans le présent document. Ces demandes peuvent être exercées gratuitement et seront étudiées par le Propriétaire le plus tôt possible et toujours dans un délai d'un mois.
-<br>
+        <br>
         <h3>Informations supplémentaires sur le traitement et la collecte des Données</h3>
+        <p>
         Action en justice<br>
         Les Données personnelles de l’Utilisateur peuvent être utilisées à des fins juridiques par le Propriétaire devant les tribunaux ou dans les étapes pouvant conduire à une action en justice résultant d’une utilisation inappropriée de cette Application ou des Services connexes.
         L’Utilisateur est conscient du fait que le Propriétaire peut être amené à révéler des Données personnelles à la demande des autorités publiques.<br>
-<br>
+        <br>
         Informations supplémentaires concernant les Données personnelles de l’Utilisateur<br>
         Outre les informations contenues dans la présente politique de confidentialité, cette Application peut fournir à l’Utilisateur des renseignements complémentaires et des informations contextuelles concernant des services particuliers ou la collecte et le traitement des Données personnelles.
-<br>
+        <br>
+        </p>
         <h3>Journaux système et maintenance</h3>
-        À des fins d'exploitation et de maintenance, cette Application et tout service tiers peuvent collecter des fichiers qui enregistrent les interactions avec cette Application (journaux système) ou utiliser à cette fin d'autres Données personnelles (telles que l'adresse IP).
+        <p>
+          À des fins d'exploitation et de maintenance, cette Application et tout service tiers peuvent collecter des fichiers qui enregistrent les interactions avec cette Application (journaux système) ou utiliser à cette fin d'autres Données personnelles (telles que l'adresse IP).
+        </p>
 
         <h3>Informations non incluses dans la présente politique</h3>
-        De plus amples renseignements concernant la collecte ou le traitement des Données personnelles peuvent à tout moment être demandés au Propriétaire. Veuillez consulter les coordonnées figurant au début du présent document.
+        <p>
+           De plus amples renseignements concernant la collecte ou le traitement des Données personnelles peuvent à tout moment être demandés au Propriétaire. Veuillez consulter les coordonnées figurant au début du présent document.
+        </p>
 
         <h3>Comment les demandes « Ne pas pister » sont traitées</h3>
-        Cette Application ne prend pas en charge les demandes « Ne pas pister ».
-        Référez-vous à la politique de confidentialité des services tiers pour déterminer s’ils acceptent ou non aux demandes « Ne pas pister ».
+        <p>
+          Cette Application ne prend pas en charge les demandes « Ne pas pister ». <br>
+          Référez-vous à la politique de confidentialité des services tiers pour déterminer s’ils acceptent ou non aux demandes « Ne pas pister ».
+        </p>
+
 
         <h3>Modifications de la présente politique de confidentialité</h3>
         <p>
-        Le Propriétaire se réserve le droit d'apporter des modifications à la présente politique de confidentialité, à tout moment, en informant ses Utilisateurs sur cette page et éventuellement dans cette Application ou – pour autant que cela soit techniquement et légalement possible – en envoyant une notification aux Utilisateurs par l'intermédiaire des coordonnées disponibles pour le Propriétaire. Il est fortement recommandé de consulter cette page fréquemment, en se référant à la date de la dernière modification indiquée en bas.
+          Le Propriétaire se réserve le droit d'apporter des modifications à la présente politique de confidentialité, à tout moment, en informant ses Utilisateurs sur cette page et éventuellement dans cette Application ou – pour autant que cela soit techniquement et légalement possible – en envoyant une notification aux Utilisateurs par l'intermédiaire des coordonnées disponibles pour le Propriétaire. Il est fortement recommandé de consulter cette page fréquemment, en se référant à la date de la dernière modification indiquée en bas.
 
-        Si les modifications influencent les activités de traitement effectuées sur la base du consentement de l'Utilisateur, le Propriétaire doit recueillir un nouveau consentement de l'Utilisateur lorsque nécessaire.
-              </p>
+          Si les modifications influencent les activités de traitement effectuées sur la base du consentement de l'Utilisateur, le Propriétaire doit recueillir un nouveau consentement de l'Utilisateur lorsque nécessaire.
+        </p>
+
+        <footer class="footer">
+          <div class="footer--logo">
+            <svg width="132" height="32" viewBox="0 0 132 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0)">
+              <path d="M26.3044 24.1075C24.0061 28.4915 19.5138 31.2932 13.6542 31.9978L13.6396 31.9999L13.625 31.9978C8.06187 31.0674 4.13114 28.7025 1.94137 24.9683C-1.42992 19.2193 0.607463 12.6413 0.630426 12.578C1.07297 11.2974 3.64266 4.95562 10.7338 5.78052C11.0741 5.8206 11.3517 6.06322 11.4373 6.39866C11.5229 6.73832 11.4018 7.07377 11.12 7.2763C8.59627 9.08854 4.81374 13.4113 7.84477 22.0041C7.86147 22.0527 8.02012 22.4641 8.55034 22.3101C8.80919 22.2362 8.95531 22.0801 8.98871 21.8459C9.00124 21.7552 8.98663 21.656 8.95114 21.559C8.61297 20.6666 5.82617 12.7172 11.7024 8.37334C14.8483 6.04845 17.8981 6.12651 19.9 6.6033C23.1398 7.37124 25.5654 9.57799 26.4484 11.3037C28.4503 15.2151 28.3961 20.1202 26.3044 24.1075Z" fill="white"/>
+              <path d="M27.87 2.6771C27.1457 4.02309 25.9078 5.79313 24.1209 6.58638C23.9769 6.64967 23.8245 6.68132 23.6721 6.68132C23.4968 6.68132 23.3235 6.64124 23.1607 6.55896C21.9833 5.96402 18.9001 4.66233 15.7251 5.4155C15.7146 5.41761 15.7063 5.41761 15.6958 5.41761C15.6562 5.41761 15.6186 5.40073 15.5936 5.36908C15.5518 5.31001 15.5497 5.22562 15.6833 4.99989C15.7125 4.94925 18.9231 -0.10138 27.0246 0.991447C27.3941 1.03997 27.7156 1.27204 27.8847 1.60959C28.0537 1.94503 28.0496 2.34588 27.87 2.6771Z" fill="white"/>
+              <path d="M12.7107 5.97255C12.7107 5.97255 13.8296 3.01896 12.5855 1.38394C11.3413 -0.251082 12.9591 -0.187791 13.2702 0.314319C13.5812 0.816428 14.9506 4.52529 14.3285 5.46833L12.7107 5.97255Z" fill="white"/>
+              <path d="M52.3128 13.2636C51.4506 16.0421 50.5781 18.6138 49.6971 20.9767C48.8141 23.3417 47.9332 25.6434 47.0502 27.8818H44.0651C42.9775 24.7088 42.0173 21.3607 41.1865 17.8353C40.3557 14.31 39.5812 10.4746 38.8631 6.3269H42.0027C42.2908 7.94505 42.5872 9.56108 42.8961 11.1792C43.203 12.7974 43.5224 14.367 43.8501 15.8923C44.1778 17.4155 44.5056 18.8733 44.8354 20.2615C45.1631 21.6518 45.5013 22.9366 45.852 24.118C46.6724 21.9408 47.5449 19.5505 48.4676 16.9493C49.3903 14.348 50.2524 11.656 51.0519 8.87754H53.6362C54.4357 11.656 55.3083 14.348 56.2519 16.9493C57.1954 19.5526 58.0784 21.9408 58.8988 24.118C59.2265 22.9577 59.5543 21.6813 59.8841 20.2932C60.2118 18.905 60.5354 17.4472 60.8527 15.9218C61.17 14.3986 61.4831 12.8227 61.792 11.194C62.0989 9.5653 62.3974 7.94294 62.6855 6.3269H65.7332C64.9942 10.4746 64.2093 14.31 63.3785 17.8353C62.5477 21.3607 61.5979 24.7088 60.5312 27.8818H57.5461C56.6422 25.6413 55.7613 23.3396 54.8992 20.9767C54.037 18.6138 53.1749 16.0421 52.3128 13.2636Z" fill="white"/>
+              <path d="M70.4718 8.7847C69.9582 8.7847 69.5219 8.61382 69.1629 8.27205C68.8039 7.93027 68.6243 7.46825 68.6243 6.88808C68.6243 6.30791 68.8039 5.84589 69.1629 5.50411C69.5219 5.16234 69.9582 4.99146 70.4718 4.99146C70.9853 4.99146 71.4195 5.16234 71.7806 5.50411C72.1397 5.84589 72.3192 6.30791 72.3192 6.88808C72.3192 7.46825 72.1397 7.93027 71.7806 8.27205C71.4195 8.61171 70.9832 8.7847 70.4718 8.7847ZM71.9184 27.8817H69.0564V11.7088H71.9184V27.8817Z" fill="white"/>
+              <path d="M76.8428 12.1749C77.4982 12.0082 78.3708 11.8331 79.4584 11.6453C80.546 11.4597 81.7985 11.3647 83.2138 11.3647C84.4851 11.3647 85.5413 11.5462 86.3847 11.9091C87.2259 12.2719 87.8981 12.7804 88.4012 13.4323C88.9043 14.0863 89.257 14.869 89.4637 15.7804C89.6683 16.6939 89.7706 17.6981 89.7706 18.7972V27.8795H86.9086V19.4196C86.9086 18.4238 86.8418 17.5736 86.7082 16.869C86.5746 16.1643 86.3534 15.5926 86.0465 15.158C85.7396 14.7234 85.3284 14.4069 84.8149 14.2086C84.3014 14.0124 83.6647 13.9133 82.9069 13.9133C82.6001 13.9133 82.2807 13.9238 81.9529 13.9449C81.6252 13.966 81.3121 13.9913 81.0136 14.023C80.7151 14.0546 80.4499 14.0905 80.2141 14.1327C79.9782 14.1749 79.8091 14.2065 79.7068 14.2255V27.8816H76.8449V12.1749H76.8428Z" fill="white"/>
+              <path d="M100.294 18.9872C100.909 19.464 101.561 20.0548 102.247 20.7594C102.934 21.464 103.613 22.2277 104.279 23.0463C104.945 23.8649 105.577 24.694 106.172 25.5358C106.767 26.3754 107.27 27.1581 107.679 27.8839H104.327C103.897 27.1581 103.398 26.4176 102.834 25.6602C102.27 24.9029 101.68 24.1771 101.064 23.483C100.448 22.7889 99.8218 22.1518 99.1872 21.5695C98.5505 20.9894 97.9452 20.502 97.3711 20.1075V27.8839H94.5092V4.24252L97.3711 3.74463V18.4894C97.8637 17.9915 98.4065 17.4429 99.0014 16.8417C99.5964 16.2404 100.181 15.6286 100.755 15.0062C101.329 14.3839 101.874 13.7889 102.385 13.2172C102.899 12.6476 103.339 12.1434 103.709 11.7088H107.063C106.592 12.2278 106.078 12.7974 105.525 13.4197C104.972 14.0421 104.396 14.6687 103.801 15.3016C103.206 15.9345 102.604 16.5674 101.999 17.1982C101.396 17.8311 100.828 18.4261 100.294 18.9872Z" fill="white"/>
+              <path d="M115.376 28.194C113.612 28.1518 112.359 27.7699 111.62 27.0421C110.881 26.3164 110.512 25.1856 110.512 23.6518V4.24252L113.374 3.74463V23.1856C113.374 23.6624 113.416 24.0569 113.497 24.367C113.578 24.6771 113.712 24.9261 113.898 25.1138C114.081 25.2995 114.328 25.4408 114.637 25.5337C114.944 25.6265 115.324 25.7045 115.774 25.7678L115.376 28.194Z" fill="white"/>
+              <path d="M118.083 19.8268C118.083 18.3965 118.288 17.1475 118.699 16.0779C119.108 15.0104 119.653 14.1243 120.329 13.4175C121.006 12.7129 121.786 12.1834 122.669 11.8311C123.552 11.4787 124.454 11.3015 125.377 11.3015C127.531 11.3015 129.182 11.9808 130.332 13.3395C131.481 14.6981 132.057 16.7657 132.057 19.5441C132.057 19.6686 132.057 19.8289 132.057 20.0273C132.057 20.2256 132.046 20.4049 132.025 20.5716H121.068C121.191 22.2509 121.674 23.5273 122.515 24.3965C123.356 25.2678 124.669 25.7024 126.454 25.7024C127.458 25.7024 128.306 25.6138 128.992 25.4386C129.679 25.2635 130.197 25.0905 130.547 24.926L130.948 27.3521C130.6 27.5378 129.988 27.7361 129.118 27.9429C128.245 28.1496 127.256 28.253 126.147 28.253C124.751 28.253 123.546 28.0399 122.532 27.6159C121.515 27.1918 120.68 26.6053 120.022 25.8585C119.365 25.1116 118.878 24.2256 118.561 23.1981C118.242 22.1749 118.083 21.0505 118.083 19.8268ZM129.07 18.2403C129.09 16.9344 128.767 15.8606 128.101 15.0209C127.433 14.1813 126.517 13.7614 125.345 13.7614C124.688 13.7614 124.11 13.8901 123.607 14.1496C123.104 14.4091 122.678 14.7467 122.329 15.1602C121.98 15.5758 121.709 16.0526 121.513 16.5905C121.317 17.1306 121.189 17.6792 121.129 18.2382H129.07V18.2403Z" fill="white"/>
+              </g>
+              <defs>
+              <clipPath id="clip0">
+              <rect width="132" height="32" fill="white"/>
+              </clipPath>
+              </defs>
+            </svg>
+          </div>
+          <div class="footer--socials">
+            <div>
+              <p>Nos réseaux sociaux :</p>
+              <ul>
+                <li>
+                  <a href="http://www.bitly.fr/e6h" target="_blank" title="Facebook Social Media">
+                    <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M26.258 33.4423H9.29953C5.02305 33.4423 1.55762 29.9769 1.55762 25.7004V10.2166C1.55762 5.12902 5.68664 1 10.7742 1H26.258C30.5345 1 33.9999 4.46543 33.9999 8.74192V25.7004C33.9999 29.9769 30.5345 33.4423 26.258 33.4423Z" fill="#FFD000" stroke="#FFD000" stroke-width="2" stroke-miterlimit="10"/>
+                      <path d="M25.1891 18.3317H19.1062V14.7557H24.9679V9.74188C24.9679 9.74188 20.802 9.66814 19.1062 9.74188C17.4103 9.81561 14.3136 10.0368 14.3136 16.4515C14.3136 17.0045 14.3136 17.6313 14.3136 18.3317H10.9219V23.2349H14.3136C14.3136 28.5805 14.3136 34.4423 14.3136 34.4423H19.1062V23.2349H25.1891V18.3317Z" fill="white"/>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="http://www.bitly.fr/e6j" title="Instagram Social Media" target="_blank">
+                    <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M26.125 34.0435H8.875C4.525 34.0435 1 30.5185 1 26.1685V10.4185C1 5.24346 5.2 1.04346 10.375 1.04346H26.125C30.475 1.04346 34 4.56846 34 8.91846V26.1685C34 30.5185 30.475 34.0435 26.125 34.0435Z" fill="#FFD000" stroke="#FFD02B" stroke-width="0.75" stroke-miterlimit="10"/>
+                      <path d="M17.7625 23.4685C21.3247 23.4685 24.2125 20.5807 24.2125 17.0185C24.2125 13.4562 21.3247 10.5685 17.7625 10.5685C14.2003 10.5685 11.3125 13.4562 11.3125 17.0185C11.3125 20.5807 14.2003 23.4685 17.7625 23.4685Z" fill="white" stroke="white" stroke-miterlimit="10"/>
+                      <path d="M27.6621 8.35596C28.5941 8.35596 29.3496 7.60044 29.3496 6.66846C29.3496 5.73648 28.5941 4.98096 27.6621 4.98096C26.7301 4.98096 25.9746 5.73648 25.9746 6.66846C25.9746 7.60044 26.7301 8.35596 27.6621 8.35596Z" fill="#FFD000" stroke="white" stroke-miterlimit="10"/>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <h4>©2019 - Winkle  |  Tous droits réservés</h4>
+          </div>
+          <div class="footer--legal">
+            <nuxt-link to="/conf">Politique de confidentialité</nuxt-link>
+            <nuxt-link to="/leg">Mentions Légales</nuxt-link>
+            <a href="https://drive.google.com/open?id=1ncSaF9Cs7milnDZaphLE9Z0J0AzQ-6Ct" download>Presse</a>
+          </div>
+        </footer>
     </div>
-    <footer class="footer">
-      <div class="footer--logo">
-        <svg width="124" height="25" viewBox="0 0 124 25" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-          <rect width="124" height="25" fill="url(#pattern0)"/>
-          <defs>
-          <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-          <use xlink:href="#image0" transform="translate(0 -0.00165242) scale(0.002849 0.0141311)"/>
-          </pattern>
-          <image id="image0" width="351" height="71" xlink:href="data:image/png;base64,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"/>
-          </defs>
-        </svg>
-      </div>
-      <div class="footer--socials">
-        <div class="">
-          <p>Nos réseaux sociaux :</p>
-          <ul>
-            <li>
-              <a href="#" target="_blank" title="Facebook Social Media">
-                <svg width="28" height="28" viewBox="0 0 71 71" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M53.6455 69.5346H17.8207C8.78656 69.5346 1.46582 62.2138 1.46582 53.1797V20.47C1.46582 9.72258 10.1884 1 20.9359 1H53.6455C62.6796 1 70.0004 8.32074 70.0004 17.3548V53.1797C70.0004 62.2138 62.6796 69.5346 53.6455 69.5346Z" fill="#FFD02B" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
-                  <path d="M51.3867 35.501H38.5365V27.9466H50.9194V17.3549C50.9194 17.3549 42.1189 17.1991 38.5365 17.3549C34.954 17.5106 28.412 17.9779 28.412 31.5291C28.412 32.6973 28.412 34.0212 28.412 35.501H21.2471V45.859H28.412C28.412 57.1516 28.412 69.5346 28.412 69.5346H38.5365V45.859H51.3867V35.501Z" fill="#FFD02B" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
-                </svg>
-              </a>
-            </li>
-            <li>
-              <a href="#" title="Instagram Social Media" target="_blank">
-                <svg width="28" height="28" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M53.1797 69.5346H17.3548C8.32074 69.5346 1 62.2138 1 53.1797V20.47C1 9.72258 9.72258 1 20.47 1H53.1797C62.2138 1 69.5346 8.32074 69.5346 17.3548V53.1797C69.5346 62.2138 62.2138 69.5346 53.1797 69.5346Z" fill="#FFD02B" stroke="#FFD02B" stroke-width="0.75" stroke-miterlimit="10"/>
-                  <path d="M35.8124 47.5724C43.2105 47.5724 49.2078 41.5751 49.2078 34.177C49.2078 26.7789 43.2105 20.7816 35.8124 20.7816C28.4143 20.7816 22.417 26.7789 22.417 34.177C22.417 41.5751 28.4143 47.5724 35.8124 47.5724Z" fill="#FFD02B" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
-                  <path d="M56.3728 16.1866C58.3083 16.1866 59.8774 14.6175 59.8774 12.682C59.8774 10.7464 58.3083 9.17737 56.3728 9.17737C54.4372 9.17737 52.8682 10.7464 52.8682 12.682C52.8682 14.6175 54.4372 16.1866 56.3728 16.1866Z" fill="#FFD02B" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
-                </svg>
-              </a>
-            </li>
-          </ul>
-        </div>
-        <h4>©2019 - WInkle  |  Tous droits réservés</h4>
-      </div>
-      <div class="footer--legal">
-        <nuxt-link to="/conf">Politique de confidentialité</nuxt-link>
-      </div>
-    </footer>
+
+
   </div>
 </template>
 
@@ -230,21 +263,36 @@ export default {
 </script>
 <style media="screen">
 .conf{
-    height: calc(100vh - (61px + 120px));
+    height:100vh;
     overflow-y: scroll;
     padding: 0 5%;
   }
   .conf h1{
     text-align: center;
+    padding: 0 5%;
   }
   .conf h2{
     margin-top: 30px;
     margin-bottom: 30px;
+    padding: 0 5%;
   }
   .conf h3{
     margin-top: 20px;
     margin-bottom: 20px;
+    padding: 0 5%;
   }
 
+  .conf h4{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0 5%;
+  }
+
+  .conf p {
+    padding: 0 5%;
+  }
+  .conf .footer{
+    margin-top: 40px;
+  }
 
 </style>
