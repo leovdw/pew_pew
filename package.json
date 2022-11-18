@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
-    "nuxt": "^2.6.2",
+    "nuxt": "^2.15.8",
     "nuxt-babel": "^1.0.1",
     "vue-accordion": "^1.0.0"
   },
